@@ -1,4 +1,4 @@
 ---
-title: 'Facilitating a FAR Centre Course'
+title: 'Coaching'
 visible: false
 ---

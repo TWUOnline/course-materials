@@ -1,4 +1,4 @@
 ---
-title: 'Assessment'
+title: 'Student Resources'
 visible: false
 ---
