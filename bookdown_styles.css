@@ -117,6 +117,7 @@ h2 {
   padding-bottom: 56.25%;  
   height: 0; 
   overflow: hidden;
+  margin-bottom: 1em;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
