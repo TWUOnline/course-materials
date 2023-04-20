@@ -103,9 +103,11 @@ h2 {
 
 }
 
-.book .book-body .page-wrapper .page-inner section.normal details > p, .book .book-body .page-wrapper .page-inner section.normal details > ol, .book .book-body .page-wrapper .page-inner section.normal details > ul { 
+.book .book-body .page-wrapper .page-inner section.normal details > p, .book .book-body .page-wrapper .page-inner section.normal details > .book .book-body .page-wrapper .page-inner section.normal details > ol, .book .book-body .page-wrapper .page-inner section.normal details > ul { 
   margin-top: .85em;
 }
+
+
 
 /*----------Table------------------*/
 .book .book-body .page-wrapper .page-inner section.normal table td {
