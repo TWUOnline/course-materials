@@ -25,8 +25,6 @@ div.bonus, div.reflect, div.assessment, div.progress, div.video, div.caution, di
   color: black;
 }
 
-
-
 div.bonus:before,
 div.reflect:before,
 div.assessment:before,
@@ -103,6 +101,10 @@ h2 {
 .carbottom {
   margin-bottom: 1em;
 
+}
+
+details > p{ 
+  margin-top.85em
 }
 
 /*----------Table------------------*/
