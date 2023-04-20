@@ -100,7 +100,7 @@ h2 {
   background-color: red;
 }
 
-details > summary.carbottom {
+.carbottom {
   margin-bottom: 1em;
 
 }
