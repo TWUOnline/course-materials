@@ -124,6 +124,10 @@ h2 {
   padding: 6px;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal table td:first-child {
+  min-width:100px;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal table td:last-child {
   border-left: none;
   border-right: none;
