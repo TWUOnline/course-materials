@@ -56,19 +56,19 @@ div.feedback:before{
 
 
 /* Styling unique to each environment: */
-div.bonus{background: #71c7ec;}
+div.bonus{background: #FDF1D4;}
 
-div.reflect{background: #e7f4e4;}
+div.reflect{background: #CDDBC7;}
 
-div.assessment{background: #deedff;}
+div.assessment{background: #E3F2F8;}
 
-div.progress{background: #e7f4e4;}
+div.progress{background: #C2BBC9;}
 
 div.video{background: #f9e0b4;}
 
-div.caution{background: #eeeded;}
+div.caution{background: #FDF1D4;}
 
-div.feedback{background: #eeeded;}
+div.feedback{background: #FDF1D4;}
 
 .blackbox {
   padding: 1em;
