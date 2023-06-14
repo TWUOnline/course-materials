@@ -147,7 +147,7 @@ h2 {
 
 /*---------------------Badge----------------------*/
 
-.badge {
+.badge-yellow {
   color: #101010;
   background-color: #fde725;
   display: inline-block;
@@ -164,7 +164,7 @@ h2 {
   text-decoration: none;
 }
 
-badge-spkr {
+badge-green {
   color: #fff;
   background-color: #5ec962;
   display: inline-block;
@@ -182,7 +182,7 @@ badge-spkr {
   text-decoration: none;
 }
 
-.badge-key {
+.badge-dark-green {
   color: #fff;
   background-color: #21918c;
   display: inline-block;
@@ -199,7 +199,7 @@ badge-spkr {
   text-decoration: none;
 }
 
-.badge-soc {
+.badge-blue {
   color: #fff;
   background-color: #3b528b;
   display: inline-block;
@@ -216,7 +216,7 @@ badge-spkr {
   text-decoration: none;
 }
 
-.badge-sesh {
+.badge-purple {
   color: #fff;
   background-color: #440154;
   display: inline-block;
