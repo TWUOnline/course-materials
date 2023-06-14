@@ -164,7 +164,7 @@ h2 {
   text-decoration: none;
 }
 
-badge-green {
+.badge-green {
   color: #fff;
   background-color: #5ec962;
   display: inline-block;
