@@ -6,9 +6,10 @@ Whether you are new to teaching an online course at TWU, or you have taught onli
 
 Intuitive course navigation and clear instructions are key factors of a well-designed online course.  Below is a suggested way to organize your material in Moodle (or WordPress). 
 
-[ui-accordion independent=true open=none]
 
-[ui-accordion-item title="1. Course Overview"]
+
+#### 1. Course Overview 
+
 The Course Introduction page provides an overview of the course, including the following information:
 - *Overview*: Course description, learning outcomes, resources needed, and a list of graded assesments. 
 - *Syllabus*:  Be sure to add a pdf of your **updated syllabus**.  See instructions on [Adding Documents and Page Resources to Moodle](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=24318)
@@ -23,37 +24,46 @@ The Course Introduction page provides an overview of the course, including the f
 - One final important element to add on your course home page is a welcome message! This could be the first connection point with your learners to welcome them to Trinity's online learning community. 
 !!! Consider adding a personal welcome video, or photo of yourself! It may go a long way to ease students' anxieties and motivate them to succeed in your course.   
 
-[/ui-accordion-item]
 
-[ui-accordion-item title="2. Schedule"]
+
+
+#### 2. Schedule 
+
 
 Although you may have a detailed schedule in your syllabus, you may want to set up a page that details key information for each week, including:  
 - key resources students need to read/watch;  
 - important ungraded learning activities that will help them complete an assignment;
 - information on which activities to complete before/after a class session.
 
-[/ui-accordion-item]
-[ui-accordion-item title="3. Course Notes"]
+
+
+#### 3. Course Notes 
+
 
 Online course vary in how they organize instructional materials.  This may be weekly, in one complete Course Book, separate Unit Books in Moodle, etc.  The key is that the navigation is intuitive, and students know where to access the information they need.
 
 !!! In your first class, please take some time to show students how to navigate the course materials.
-[/ui-accordion-item]
-[ui-accordion-item title="4. Assessment"]
+
+
+#### 4. Assessment 
+
 
 If you have several weeks or units in your course, you (& your students!) may find it helpful to have all assignment instructions and dropboxes in one section. As you review your assessment instructions, please check the following:
 
 - Please ensure that the assignments have the detailed instructions, including grading criteria you will use to assess the quality of the work.
 - Add the due dates in the Assignment Dropbox settings.
 - Check that the Gradebook is set up correctly.  Please see the Online Learning article on [Gradebook](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/?CategoryID=22747) for instructions.
-[/ui-accordion-item]
-[ui-accordion-item title="5. Community"]
+
+
+#### 5. Community 
+
 
 How is Community promoted in TWU Online courses?  The Community tab is a section where you can keep announcements, ungraded discussion forums, and FAQ.  Please make this section work for you and your students!  The idea is to promote inclusion, connections between peers, and communication with the instructor.
 
 You may want to find out what tools your students prefer to communicate with each other (Discord, Slack, Teams, etc.).  Please share your communication preferences, office hours, and other tips for succeeding in your course.
-[/ui-accordion-item]
-[/ui-accordion]
+
+
+
 
 ### Connection
 Now that you have your basic structure set up for your online course, how do you design a quality online learning experience for your students?  Key to successful online learning is a connection - between learners, between the instructor and learners, and between the learner and the content.  See the graphic below as well as the [Community of Inquiry](https://coi.athabascau.ca/coi-model/) website for more details.
@@ -62,22 +72,27 @@ Now that you have your basic structure set up for your online course, how do you
 
 [ui-accordion independent=false open=none]
 
-[ui-accordion-item title="Connecting to Instructors"]
+#### Connecting to Instructors 
+
 - Provide support for students throughout the course (e.g. through emails, assessment feedback, welcome videos, weekly debriefing, and other updates).
 - Introduce yourselve to the class, welcoming students to the course and explaining key aspects of what to expect in the course.
 - Throughout the course, provide various opportunities for formative feedback.
 
-[/ui-accordion-item]
 
-[ui-accordion-item title="Connecting to Course Content"]
+
+
+#### Connecting to Course Content 
+
 !!! Note that if you have designed your course with an Instructional Designer, these are the quality standards used to ensure your students have a well designed course. 
-#### Course Learning Outcomes
+#### Course Learning Outcomes 
+
 - The course learning outcomes should be measurable and reflect the course description and level of the course.
 - Also include module/unit/week learning outcomes that are measurable and consistent with the course-level outcomes.
 - There should be a clear relationship between the course/unit learning outcomes, learning activities, and assessments.
 - All learning outcomes should be stated clearly and written from the learner’s perspective.
 
 #### Course Materials
+
 - The instructional materials (written/oral content, videos, graphics, readings, etc.), should support learners in achieving the learning outcomes.
 - Course materials and resources should be up-to-date, relevant, and appropriate for the level of the course.
 - Consider using a variety of instructional materials in the course (text, graphics, videos, interviews, activities). 
@@ -85,28 +100,34 @@ Now that you have your basic structure set up for your online course, how do you
 - All third-party materials are identified, cited and permission requested if necessary.
 
 #### Assessment
+
 - The assessments are sequenced, varied, flexible, and appropriate to the content being assessed.
 - The assessments measure the achievement of the course learning outcomes and are consistent with course activities and resources.
 - The learner workload is appropriate and reasonable for the level and number of credits for the course.
 
 
 #### Learning Activities
+
 - Learning activities support learners in achieving the learning outcomes and completing assessments.
 - Learning activities provide scaffolding opportunities for building foundational knowledge and skills within the course.
 
 #### Educational Technology
+
 - The technology used in the course supports the learning outcomes, activities and assessments.
 - Tools promote student engagement and active learning.
 - A variety of technology is used in the course.
 
-[/ui-accordion-item]
-[ui-accordion-item title="Connecting to Peers"]
+
+
+#### Connecting to Peers 
+
 
 - Ask your students to introduce themselves to the class.
 - Learner interaction (student-instructor, student-student, student-content) should promotes a sense of community aligned with Trinity Western University core values.
 - Learning activities should foster student-instructor, student-content, and if appropriate to the course, student-student interaction.
-[/ui-accordion-item]
-[/ui-accordion]
+
+
+
 
 ### Inclusion
 
@@ -114,7 +135,8 @@ All TWU Online courses should meet accessibility standards. Please connect with 
 
 [ui-accordion independent=false open=none]
 
-[ui-accordion-item title="Accessibility"]
+#### Accessibility 
+
 - The course provides accessible text, videos and images for diverse learners.
   - Blackboard Ally is a tool that can help you identify areas of your course that could be improved to support accessibility for all learners.  Please see [What is Blackboard Ally?](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=141400) for instructions.
   - Another resource you may find useful is the [Accessibility Checklist](https://opentextbc.ca/accessibilitytoolkit/back-matter/appendix-checklist-for-accessibility-toolkit/) from BC Campus.
@@ -127,21 +149,25 @@ All TWU Online courses should meet accessibility standards. Please connect with 
   - [TWU Library](https://www.twu.ca/academics/library)
   - [Student Services](https://www.twu.ca/life-twu/student-services)
 
-[/ui-accordion-item]
 
-[ui-accordion-item title="Inclusion"]
+
+
+#### Inclusion 
+
 - Learners are able to participate in a peer support forum (e.g. Learning Café), for course-related questions or community-building activities.  
 - The instructional materials are free of bias, culturally inclusive, and provide flexibility and choice.  
   
-[/ui-accordion-item]
-[/ui-accordion]
+
+
+
 
 ## Instructor To-Do List For New Course Sections
 
 There are a few things you should do before the semester starts to ensure that your students have a smooth transition to studying with you.  
 [ui-accordion independent=false open=none]
 
-[ui-accordion-item title="To-Do List"]
+#### To-Do List 
+
 
 ✔️ Receive confirmation of course code and Moodle access info.
 
@@ -169,8 +195,9 @@ Embedding videos into Moodle See the following guide for details: Managing Video
 
 See here for more info on setting up your course: [New Course Set Up](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=141403)
 
-[/ui-accordion-item]
-[/ui-accordion]
+
+
+
 
 
 ## Online Support
@@ -178,7 +205,8 @@ TWU Online is here to support you and your learners! Please see the following re
 
 [ui-accordion independent=false open=none]
 
-[ui-accordion-item title="Moodle Support"]
+#### Moodle Support 
+
 The Support Services at TWU have built an extensive Knowledge base, with instructions on serveral issues, including: 
 -  [Creating a Course Announcement](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=147930) 
 -  [New Course Setup](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=141403)
@@ -198,15 +226,19 @@ Moving Content Within Moodle
 
 If you need support, please email [elearning@twu.ca](mailto:elearning@twu.ca).  
 
-[/ui-accordion-item]
-[ui-accordion-item title="Git Support (aka - "I can't seem to edit my course content!")"]
+
+
+#### Git Support (aka - "I can't seem to edit my course content!") 
+
 
 For some OL courses, you may have noticed that parts of your course are difficult to edit. This is because we use a different program (Git) to display your course content in Moodle. This allows for version control and course fidelity across your program.
 
 Our TWU Online team can help you with any changes you want to make to the course materials.  Please email elearning@twu.ca or click on the following link to [Send a Bug report](https://github.com/TWUOnline/bug-tracking/issues/new?assignees=cmadland%2C+kmarjanovic%2C+MeeksonHundoo&labels=bug&template=bug_report.md&title=) to our team.
 
-[/ui-accordion-item]
-[ui-accordion-item title="Online Learning Resources for Students"]
+
+
+#### Online Learning Resources for Students 
+
  
 If not already on your course Home Page, please direct your students to the [Online Learning Resources](https://www.twu.ca/academics/academic-support/online-learning-resources) webpage.
 
@@ -216,5 +248,5 @@ In particular, you may want to share the following links:
 - [Data & Privacy](https://www.twu.ca/academics/academic-support/online-learning-resources/online-learning-environment/data-privacy)
 !! Please note that in this Data & Privacy section, we caution students about Turnitin. If you use this company, please see this page and reconsider it's usefulness in detecting plagiarism in your course.
 
-[/ui-accordion-item]
-[/ui-accordion]
+
+
