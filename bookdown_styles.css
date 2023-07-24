@@ -233,3 +233,9 @@ h2 {
   text-decoration: none;
 }
 
+/*---------------------Hanging Indent----------------------*/
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
