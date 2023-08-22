@@ -9,6 +9,8 @@ the Moodle course. 
 Before you begin, read through the Course Introduction in Moodle, including the
 course description, learning outcomes, and assessment overview.
 
+---
+
 ## GX Course Delivery
 
 This course is offered in two modalities: GX Live & GX Prime. 
@@ -39,7 +41,7 @@ This course is offered in two modalities: GX Live & GX Prime. 
         Guides](https://twuonline.github.io/facilitator-guides/#/) that outline
         the lab activities and instructions for facilitators.
 
-GX Prime (Online Asynchronous):
+### GX Prime (Online Asynchronous):
 
 -   **Course Content:** In this modality, students work through the course in
     Moodle at their own pace.  They have 6 weeks to submit the *three required
@@ -55,7 +57,7 @@ GX Prime (Online Asynchronous):
     students on track. These motivational messages may re-engage students that
     may have decided not to complete the course assignments.
 
-Online Learning Hub (Asynchronous Resources & Synchronous Sessions)
+### Online Learning Hub (Asynchronous Resources & Synchronous Sessions)
 
 -   All GX students (Live & Prime) will have the support of the Online Learning
     Hub, which will include “Just In Time” support from facilitators, online
@@ -66,6 +68,7 @@ Online Learning Hub (Asynchronous Resources & Synchronous Sessions)
     purpose is for students to connect with their peers and facilitators and
     have a robust support system.
 
+---
 
 ## Instructor To-Do List For GX Live
 
@@ -102,12 +105,12 @@ Consider adding a personal welcome video, or photo of yourself! It may go a long
 ✔️ Course Visibility: Your course is visible to you as the instructor, but it is hidden from students. When you are ready, follow these instructions to make your course visible to students. Your course will move from the 'Future' tab on your dashboard to the 'In progress' tab on the date indicated in the 'Start date' field of the course settings.
 
 
-
+---
 
 ## Online Support
 TWU Online is here to support you and your learners! Please see the following resources to support you as you prepare for your course, as well as resources you can share with your students.
 
-#### Moodle Support 
+### Moodle Support 
 
 The Support Services at TWU have built an extensive Knowledge base, with instructions on serveral issues, including: 
 -  [Creating a Course Announcement](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=147930) 
@@ -130,14 +133,14 @@ If you need support, please email [elearning@twu.ca](mailto:elearning@twu.ca).
 
 
 
-#### Editing the Course Materials 
+### Editing the Course Materials 
 
 For GX courses, the Course Book (Units) is edited by the online team. This allows for version control and course fidelity across your program. For edits to the course units, please email elearning@twu.ca or click on the following link to [Send a Bug report](https://github.com/TWUOnline/bug-tracking/issues/new?assignees=cmadland%2C+kmarjanovic%2C+MeeksonHundoo&labels=bug&template=bug_report.md&title=) to our team.
 
 All other tabs in Moodle are editable by instructors (Course Home, Schedule, Assessment, Community). Please email elearning@twu.ca if you have troubles editing these sections.
 
 
-#### Online Learning Resources for Students 
+### Online Learning Resources for Students 
 
 On the Course Home page, there is a section to let students where they can access support.  Please point these out to students during the Learning Lab. 
   - [The Learning Commons](https://learningcommons.twu.ca/) webpage
