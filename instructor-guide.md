@@ -1,173 +1,75 @@
-# Instructor's Guide for TWU Online
+# Instructor's Guide for GX Live & GX Prime
 
-Whether you are new to teaching an online course at TWU, or you have taught online for 20 years, we hope this guide will provide support as you structure your content, plan for connections, and create a welcome and inclusive learning environment for your learners.
+This guide will give you an overview of the course, how it is delivered, and the
+role of the instructor in GX courses.  Please also review the course content in
+Moodle. All assignments and learning activities for each unit are explained in
+detail online, and this guide is meant to supplement the information found in
+the Moodle course. 
 
-### Structure
+Before you begin, read through the Course Introduction in Moodle, including the
+course description, learning outcomes, and assessment overview.
 
-Intuitive course navigation and clear instructions are key factors of a well-designed online course.  Below is a suggested way to organize your material in Moodle (or WordPress). 
+## GX Course Delivery
 
+This course is offered in two modalities: GX Live & GX Prime. 
 
+### GX Live (Facilitated):
 
-#### 1. Course Overview 
+-   **Course Content:** In this modality, students work through the course
+    material in Moodle according to the course schedule, submitting assignments
+    by assigned due dates. 
 
-The Course Introduction page provides an overview of the course, including the following information:
-- *Overview*: Course description, learning outcomes, resources needed, and a list of graded assesments. 
-- *Syllabus*:  Be sure to add a pdf of your **updated syllabus**.  See instructions on [Adding Documents and Page Resources to Moodle](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=24318)
-- *Expectations*: You may wish to provide your expectations for student interaction, participation in forums and live sessions, and policies (late, Academic honesty etc.).
-  - Consider adding a *Choice* activity where students acknowledge they have read Trinity's [Academic Misconduct & Fraud policy](https://www.twu.ca/about-us/policies-guidelines/university-policies/academic-misconduct-fraud). 
-- *Navigation*: There should be clear instructions on how to navigate the course, including where to find resources, the schedule, activities, and assignment dropboxes.
-- *Learner Support*: Please let students know where they can access support: 
-  - [The Learning Commons](https://learningcommons.twu.ca/) webpage
-  - [The Writing Centre](https://www.twu.ca/academics/academic-professional-support/learning-commons/writing-centre)
-  - [Online Learning Resources](https://www.twu.ca/academics/academic-support/online-learning-resources) webpage - tips for learning online. 
+-   **Live sessions:** Students attend weekly Learning Labs led by a
+    facilitator.  In the labs, students engage in various learning activities,
+    discussions, and assignment preparation.  The labs are 2 hours each week,
+    and students must attend **75%** of the labs.  
 
-- One final important element to add on your course home page is a welcome message! This could be the first connection point with your learners to welcome them to Trinity's online learning community. 
-!!! Consider adding a personal welcome video, or photo of yourself! It may go a long way to ease students' anxieties and motivate them to succeed in your course.   
+-   **Instructor role:** The role of the instructor is to give feedback to
+    students on assignments and answer questions from facilitators and students.
+    Note some instructors choose to be present for some labs (see examples in
+    the Facilitation Orientation website
+    [here](https://twuonline.github.io/facilitation-meta-guide/#/orientation?id=interaction-with-the-instructors)).
 
+-   **Key Resources for GX Live:**
 
+    -   For more information on this model, see the [Facilitation
+        Meta-Guide](https://twuonline.github.io/facilitation-meta-guide/#/orientation).
 
+    -   See [Facilitator’s
+        Guides](https://twuonline.github.io/facilitator-guides/#/) that outline
+        the lab activities and instructions for facilitators.
 
-#### 2. Schedule 
+GX Prime (Online Asynchronous):
 
+-   **Course Content:** In this modality, students work through the course in
+    Moodle at their own pace.  They have 6 weeks to submit the *three required
+    assignments*.
 
-Although you may have a detailed schedule in your syllabus, you may want to set up a page that details key information for each week, including:  
-- key resources students need to read/watch;  
-- important ungraded learning activities that will help them complete an assignment;
-- information on which activities to complete before/after a class session.
+-   **Online Community**: Students will be encouraged to engage with the online
+    community through Discourse, as well as Moodle discussion forums, and
+    optional Live sessions.  See the section below on the Online Learning Hub.
 
+-   **Instructor role:** The instructor is responsible for giving feedback and
+    assigning a grade for the three assignments. Instructors and/or facilitators
+    are also encouraged to send out reminder emails or announcements to keep
+    students on track. These motivational messages may re-engage students that
+    may have decided not to complete the course assignments.
 
+Online Learning Hub (Asynchronous Resources & Synchronous Sessions)
 
-#### 3. Course Notes 
+-   All GX students (Live & Prime) will have the support of the Online Learning
+    Hub, which will include “Just In Time” support from facilitators, online
+    resources, and regular live sessions.  
 
+-   The live sessions will be optional and will cover general topics for online
+    learning, such as writing support, study skills, and community building. The
+    purpose is for students to connect with their peers and facilitators and
+    have a robust support system.
 
-Online course vary in how they organize instructional materials.  This may be weekly, in one complete Course Book, separate Unit Books in Moodle, etc.  The key is that the navigation is intuitive, and students know where to access the information they need.
 
-!!! In your first class, please take some time to show students how to navigate the course materials.
-
-
-#### 4. Assessment 
-
-
-If you have several weeks or units in your course, you (& your students!) may find it helpful to have all assignment instructions and dropboxes in one section. As you review your assessment instructions, please check the following:
-
-- Please ensure that the assignments have the detailed instructions, including grading criteria you will use to assess the quality of the work.
-- Add the due dates in the Assignment Dropbox settings.
-- Check that the Gradebook is set up correctly.  Please see the Online Learning article on [Gradebook](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/?CategoryID=22747) for instructions.
-
-
-#### 5. Community 
-
-
-How is Community promoted in TWU Online courses?  The Community tab is a section where you can keep announcements, ungraded discussion forums, and FAQ.  Please make this section work for you and your students!  The idea is to promote inclusion, connections between peers, and communication with the instructor.
-
-You may want to find out what tools your students prefer to communicate with each other (Discord, Slack, Teams, etc.).  Please share your communication preferences, office hours, and other tips for succeeding in your course.
-
-
-
-
-### Connection
-Now that you have your basic structure set up for your online course, how do you design a quality online learning experience for your students?  Key to successful online learning is a connection - between learners, between the instructor and learners, and between the learner and the content.  See the graphic below as well as the [Community of Inquiry](https://coi.athabascau.ca/coi-model/) website for more details.
-![](512px-Community_of_inquiry_model.svg.png)
-!!! Please note that our Instructional Design Team at TWU-OL is here to support you!  Whether you are developing a course for Global, or setting up your own online course, please reach out if you have questions about your course design.
-
-[ui-accordion independent=false open=none]
-
-#### Connecting to Instructors 
-
-- Provide support for students throughout the course (e.g. through emails, assessment feedback, welcome videos, weekly debriefing, and other updates).
-- Introduce yourselve to the class, welcoming students to the course and explaining key aspects of what to expect in the course.
-- Throughout the course, provide various opportunities for formative feedback.
-
-
-
-
-#### Connecting to Course Content 
-
-!!! Note that if you have designed your course with an Instructional Designer, these are the quality standards used to ensure your students have a well designed course. 
-#### Course Learning Outcomes 
-
-- The course learning outcomes should be measurable and reflect the course description and level of the course.
-- Also include module/unit/week learning outcomes that are measurable and consistent with the course-level outcomes.
-- There should be a clear relationship between the course/unit learning outcomes, learning activities, and assessments.
-- All learning outcomes should be stated clearly and written from the learner’s perspective.
-
-#### Course Materials
-
-- The instructional materials (written/oral content, videos, graphics, readings, etc.), should support learners in achieving the learning outcomes.
-- Course materials and resources should be up-to-date, relevant, and appropriate for the level of the course.
-- Consider using a variety of instructional materials in the course (text, graphics, videos, interviews, activities). 
-- Course design and instructional materials meet academic standards for Higher Education (online) learning.
-- All third-party materials are identified, cited and permission requested if necessary.
-
-#### Assessment
-
-- The assessments are sequenced, varied, flexible, and appropriate to the content being assessed.
-- The assessments measure the achievement of the course learning outcomes and are consistent with course activities and resources.
-- The learner workload is appropriate and reasonable for the level and number of credits for the course.
-
-
-#### Learning Activities
-
-- Learning activities support learners in achieving the learning outcomes and completing assessments.
-- Learning activities provide scaffolding opportunities for building foundational knowledge and skills within the course.
-
-#### Educational Technology
-
-- The technology used in the course supports the learning outcomes, activities and assessments.
-- Tools promote student engagement and active learning.
-- A variety of technology is used in the course.
-
-
-
-#### Connecting to Peers 
-
-
-- Ask your students to introduce themselves to the class.
-- Learner interaction (student-instructor, student-student, student-content) should promotes a sense of community aligned with Trinity Western University core values.
-- Learning activities should foster student-instructor, student-content, and if appropriate to the course, student-student interaction.
-
-
-
-
-### Inclusion
-
-All TWU Online courses should meet accessibility standards. Please connect with Trinity's [Accessibility Services](https://www.twu.ca/learning-commons/centre-accessible-learning/accessibility-services) and/or our [Online team](mailto:online@twu.ca) to help ensure all course materials are accessible and inclusive.
-
-[ui-accordion independent=false open=none]
-
-#### Accessibility 
-
-- The course provides accessible text, videos and images for diverse learners.
-  - Blackboard Ally is a tool that can help you identify areas of your course that could be improved to support accessibility for all learners.  Please see [What is Blackboard Ally?](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=141400) for instructions.
-  - Another resource you may find useful is the [Accessibility Checklist](https://opentextbc.ca/accessibilitytoolkit/back-matter/appendix-checklist-for-accessibility-toolkit/) from BC Campus.
-
-- Instructions for accessing support (instructor, IT, library, student services), are clearly stated in the course overview and when appropriate, throughout the course.
-  - Please let students know where they can access support: 
-  - [The Learning Commons](https://learningcommons.twu.ca/) 
-  - [The Writing Centre](https://www.twu.ca/academics/academic-professional-support/learning-commons/writing-centre)
-  - [Online Learning Resources](https://www.twu.ca/academics/academic-support/online-learning-resources) (Tips for learning online) 
-  - [TWU Library](https://www.twu.ca/academics/library)
-  - [Student Services](https://www.twu.ca/life-twu/student-services)
-
-
-
-
-#### Inclusion 
-
-- Learners are able to participate in a peer support forum (e.g. Learning Café), for course-related questions or community-building activities.  
-- The instructional materials are free of bias, culturally inclusive, and provide flexibility and choice.  
-  
-
-
-
-
-## Instructor To-Do List For New Course Sections
+## Instructor To-Do List For GX Live
 
 There are a few things you should do before the semester starts to ensure that your students have a smooth transition to studying with you.  
-[ui-accordion independent=false open=none]
-
-#### To-Do List 
-
 
 ✔️ Receive confirmation of course code and Moodle access info.
 
@@ -175,7 +77,13 @@ There are a few things you should do before the semester starts to ensure that y
 
 ✔️ Add a syllabus: You will need to change the dates in the syllabus, make sure it is a pdf version, get approval from the department chair, and upload it to Moodle on the Course Introduction tab.
 
-✔️ Add a welcome message: Add an Announcement forum at the bottom of the Course Introduction page. to welcome your new students, tell them about yourself and how to reach you (e.g. email), and perhaps share an encouraging Bible verse or what interests you about this course. If you feel up to it, add a video welcome message!
+✔️ Add a welcome message: Add an Announcement forum at the bottom of the Course Introduction page. to welcome your new students, tell them about yourself and how to reach you (e.g. email), and perhaps share an encouraging Bible verse or what interests you about this course. This could be the first connection point with your learners to welcome them to Trinity's online learning community. 
+Consider adding a personal welcome video, or photo of yourself! It may go a long way to ease students' anxieties and motivate them to succeed in your course. 
+
+✔️ Edit the Schedule tab in Moodle.  Although you may have a detailed schedule in your syllabus, you may want to use this editable page that details key information for each week, including:  
+- key resources students need to read/watch;  
+- important ungraded learning activities that will help them complete an assignment;
+- information on which activities to complete before/after a Learning Lab session.
 
 ✔️ Check the course materials: You may notice that this fully developed online course has a lot of material, including videos, unit writing, and external links. If possible, please check for broken links and send a message to our online team (elearning@twu.ca) so we can help you fix any errors.
 
@@ -184,26 +92,20 @@ There are a few things you should do before the semester starts to ensure that y
 ✔️ Check the Gradebook: Please double check that all assessment material is correct, including the percentages in the course Gradebook.
 
 ✔️ Prepare for Synchronous sessions: If you have synchronous Zoom Meetings in your course, you will need to become familiar with the following:
-
-Scheduling class meetings
-Recording Zoom Meetings
-Adding the recorded session to Microsoft Stream
-Embedding videos into Moodle See the following guide for details: Managing Videos | TWU Learning Environment Help Pages
+- Scheduling class meetings
+- Recording Zoom Meetings
+- Adding the recorded session to Microsoft Stream
+- Embedding videos into Moodle See the following guide for details: Managing Videos | TWU Learning Environment Help Pages
+  
 ✔️ Use Announcements for Weekly encouragement and review.
 
 ✔️ Course Visibility: Your course is visible to you as the instructor, but it is hidden from students. When you are ready, follow these instructions to make your course visible to students. Your course will move from the 'Future' tab on your dashboard to the 'In progress' tab on the date indicated in the 'Start date' field of the course settings.
-
-See here for more info on setting up your course: [New Course Set Up](https://trinitywestern.teamdynamix.com/TDClient/1904/Portal/KB/ArticleDet?ID=141403)
-
-
 
 
 
 
 ## Online Support
 TWU Online is here to support you and your learners! Please see the following resources to support you as you prepare for your course, as well as resources you can share with your students.
-
-[ui-accordion independent=false open=none]
 
 #### Moodle Support 
 
@@ -228,21 +130,21 @@ If you need support, please email [elearning@twu.ca](mailto:elearning@twu.ca).
 
 
 
-#### Git Support (aka - "I can't seem to edit my course content!") 
+#### Editing the Course Materials 
 
+For GX courses, the Course Book (Units) is edited by the online team. This allows for version control and course fidelity across your program. For edits to the course units, please email elearning@twu.ca or click on the following link to [Send a Bug report](https://github.com/TWUOnline/bug-tracking/issues/new?assignees=cmadland%2C+kmarjanovic%2C+MeeksonHundoo&labels=bug&template=bug_report.md&title=) to our team.
 
-For some OL courses, you may have noticed that parts of your course are difficult to edit. This is because we use a different program (Git) to display your course content in Moodle. This allows for version control and course fidelity across your program.
-
-Our TWU Online team can help you with any changes you want to make to the course materials.  Please email elearning@twu.ca or click on the following link to [Send a Bug report](https://github.com/TWUOnline/bug-tracking/issues/new?assignees=cmadland%2C+kmarjanovic%2C+MeeksonHundoo&labels=bug&template=bug_report.md&title=) to our team.
-
+All other tabs in Moodle are editable by instructors (Course Home, Schedule, Assessment, Community). Please email elearning@twu.ca if you have troubles editing these sections.
 
 
 #### Online Learning Resources for Students 
 
- 
-If not already on your course Home Page, please direct your students to the [Online Learning Resources](https://www.twu.ca/academics/academic-support/online-learning-resources) webpage.
+On the Course Home page, there is a section to let students where they can access support.  Please point these out to students during the Learning Lab. 
+  - [The Learning Commons](https://learningcommons.twu.ca/) webpage
+  - [The Writing Centre](https://www.twu.ca/academics/academic-professional-support/learning-commons/writing-centre)
+  - [Online Learning Resources](https://www.twu.ca/academics/academic-support/online-learning-resources) webpage - tips for learning online. 
 
-In particular, you may want to share the following links:
+You may also want to share the following links:
 - [Tips for Success](https://www.twu.ca/academics/academic-support/online-learning-resources/online-learning-environment/tips-success)
 - [Learning Online: Student Tips for Success](https://vimeo.com/493206161)
 - [Data & Privacy](https://www.twu.ca/academics/academic-support/online-learning-resources/online-learning-environment/data-privacy)
