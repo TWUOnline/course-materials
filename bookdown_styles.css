@@ -17,7 +17,7 @@ pre code {
 /* icons from remixicon.com */
 
 /* Styling for all custom environments: */
-div.bonus, div.reflect, div.assessment, div.progress, div.video, div.caution, div.feedback{
+div.bonus, div.reflect, div.assessment, div.progress, div.video, div.caution, div.feedback, div.blank{
   padding: 1em;
   margin: 0.5em;
   position:relative;
@@ -31,7 +31,8 @@ div.assessment:before,
 div.progress:before,
 div.video:before,
 div.caution:before,
-div.feedback:before{
+div.feedback:before
+div.blank:before{
     left:0.5em;
     position:absolute;
     top:0.1em;
@@ -48,7 +49,8 @@ div.feedback:before{
 .book .book-body .page-wrapper .page-inner .normal div.progress a:link,
 .book .book-body .page-wrapper .page-inner .normal div.video a:link,
 .book .book-body .page-wrapper .page-inner .normal div.caution a:link,
-.book .book-body .page-wrapper .page-inner .normal div.feedback a:link{
+.book .book-body .page-wrapper .page-inner .normal div.feedback a:link
+.book .book-body .page-wrapper .page-inner .normal div.blank a:link{
   text-decoration: underline;
   font-weight: bold;
   color: black;
@@ -69,6 +71,8 @@ div.video{background: #f9e0b4;}
 div.caution{background: #FDF1D4;}
 
 div.feedback{background: #FDF1D4;}
+
+div.blank{background: #ffffff;}
 
 .blackbox {
   padding: 1em;
