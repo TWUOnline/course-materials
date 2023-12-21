@@ -111,7 +111,15 @@ h2 {
   margin-top: .85em;
 }
 
+/*----------Index------------------*/
 
+#fig:unnamed-chunk-1 img {
+  max-width:400px;
+}
+
+#fig:unnamed-chunk-2 img {
+  max-width:80px;
+}
 
 /*----------Table------------------*/
 
