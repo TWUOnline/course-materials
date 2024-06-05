@@ -1,7 +1,2 @@
 /* This file contains TWU specific styles in addition to the Quarto theme CSS */
 
-h2, .h2 {
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: .5rem;
-  color: blue;
-}
