@@ -1,2 +1,21 @@
 /* This file contains TWU specific styles in addition to the Quarto theme CSS */
 
+/* Improving navigation on small screens */
+@media (max-width: 991.98px) {
+    .d-flex{
+        padding:.5rem;
+    }
+    .sidebar.sidebar-navigation > *{
+        padding-top:.2rem;
+    }
+    .menu-text {
+        display:flex;
+        }
+    .menu-text span{
+        white-space: wrap;
+        }
+    .menu-text .chapter-number{
+        padding-right:.5rem;
+        }
+
+}
