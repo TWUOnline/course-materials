@@ -19,3 +19,8 @@
         }
 
 }
+
+/* Add extra space after emphasized text */
+em {
+    padding-right: .1rem;
+}
