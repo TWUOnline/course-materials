@@ -54,7 +54,7 @@ const createGlobalHeader = () => {
     title: 'Trinity Western University',
     alt: 'Trinity Western University Logo'
   });
-  const label = createElement('label', 'twu-global-header-label', {}, '<strong>TWU</strong> Online Program');
+  const label = createElement('label', 'twu-global-header-label', {}, '<strong>TWU</strong> Online');
   
   logoLink.append(logo, label);
   
