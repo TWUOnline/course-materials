@@ -74,7 +74,7 @@
 
 /* TWU Course Hearder Styles */
 
-/*#title-block-header {
+#title-block-header {
     color: white;
     background-image: url(header-assets/twu_bg.svg);
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@
 #title-block-header.quarto-title-block.default .quarto-title-meta-heading p {
     margin-top: 0;
     margin-bottom: 0;
-}*/
+}
 /* Sidebar - Main (Left) Navigation */
 
 .sidebar-item {
