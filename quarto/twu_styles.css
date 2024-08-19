@@ -380,12 +380,22 @@ em {
     height: 0; 
     overflow: hidden;
     margin-bottom: 1em;
-  }
+}
   
-  .video-container iframe, .video-container object, .video-container embed {
+.video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0; 
     left: 0; 
     width: 100%; 
     height: 100%;
-  }
+}
+
+/*----------H5P Custom Sytles------------------*/
+
+html.h5p-iframe .h5p-content {
+    border: 0;
+}
+
+html.h5p-iframe .h5p-content .h5p-container {
+    font-family: "Source Sans Pro";
+}
