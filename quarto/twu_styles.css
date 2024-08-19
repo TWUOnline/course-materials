@@ -289,7 +289,11 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
 
 .course-activity-body {
     padding: 1rem 1rem 0 1rem;
-    /* font-size: .9rem; */
+    font-size: .9rem;
+}
+
+.callout.callout-style-default .callout-body {
+    font-size: 1rem;
 }
 
 .learning-activity-body table,
@@ -388,14 +392,4 @@ em {
     left: 0; 
     width: 100%; 
     height: 100%;
-}
-
-/* H5P Custom Sytles */
-
-html.h5p-iframe .h5p-content {
-    border: 0;
-}
-
-html.h5p-iframe .h5p-content .h5p-container {
-    font-family: "Source Sans Pro";
 }
