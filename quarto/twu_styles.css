@@ -1,3 +1,7 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
 /* Variables */
 
 :root {
@@ -285,7 +289,7 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
 
 .course-activity-body {
     padding: 1rem 1rem 0 1rem;
-    font-size: .9rem;
+    /* font-size: .9rem; */
 }
 
 .learning-activity-body table,
