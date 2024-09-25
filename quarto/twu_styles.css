@@ -292,7 +292,7 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
     font-size: .9rem;
 }
 
-.callout.callout-style-default .callout-body {
+.callout.callout-style-default .callout-body, .callout-collapse .callout-body {
     font-size: 1rem;
 }
 
