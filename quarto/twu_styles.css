@@ -309,12 +309,11 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
     border: 0;
     border-left: .25rem solid var(--accent-color);
     border-radius: 0;
-    padding: 0 .625rem;   
 }
 
 .callout.callout-style-simple.accordion.callout-titled .callout-collapse .callout-body > :last-child:not(.sourceCode){
     margin-bottom: 0;
-
+    padding: 0 .625rem;
 }
 
 .learning-activity-body table,
