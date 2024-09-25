@@ -296,7 +296,7 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
     font-size: 1rem;
 }
 
-.callout.callout-style-simple.accordion.callout.callout-style-simple {
+.callout.callout-style-simple.accordion {
     border-left: 5px solid;
         border-left-color: currentcolor;
     border-right: 1px solid var(--primary-color);
