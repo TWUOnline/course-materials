@@ -296,7 +296,7 @@ div.callout-important:not(.callout-titled) .callout-icon::before {
     font-size: 1rem;
 }
 
-.callout-collapse callout-body .callout-style-simple.callout-note{
+.callout-collapse .callout-body .callout-style-simple.callout-note{
     margin-bottom: 0;
     border: 0;
         border-left-width: 0px;
