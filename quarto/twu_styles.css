@@ -293,7 +293,7 @@ h1,
 
 .callout.callout-style-simple.callout-titled .callout-collapse .callout-body > :last-child:not(.sourceCode){
     margin-bottom: 0;
-    padding: 0 .625rem;
+    padding: 0;
 }
 
 /* Blockquote Styles */
