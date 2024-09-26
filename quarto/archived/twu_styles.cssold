@@ -229,72 +229,97 @@ h1,
     margin-top: unset;
 }
 
+/* Callout Styles*/
+
+/* div.callout-warning.callout {
+    border-left-color: #FFC701;
+}
+
+div.callout-tip:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_activity.svg);
+    height: 1.1rem;
+    width: 1rem;
+    background-size: 1rem 1.1rem;
+}
+
+div.callout-note:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_assessment.svg);
+}
+
+div.callout-warning:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_checking_learning.svg);
+}
+
+div.callout-important:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_note.svg);
+} */
+
 /* Custom Callout Styles */
 
-
-/* Custom Callout Styles for {.learning-activity} */
-
-.callout.callout-style-default.callout-note.no-icon.callout-titled {
+.course-activity {
+    margin: 1em 0;
     border: 1px solid var(--primary-color);
+    border-radius: .25rem;
 }
 
-.callout.callout-style-default.callout-note.callout-style-default>.callout-header {
+.course-activity-header {
+    margin-left: 0em;
+    padding: 4px 1rem;
     background-color: var(--primary-color);
+}
+
+.course-activity-header p {
     color: white;
-    padding: 5px 1rem;
-    font-weight: normal;
+    font-size: 1em;
+    margin-bottom: 0;
 }
 
-.callout.callout-style-default.callout-note.callout-style-default .callout-body {
-    padding: .5rem 1rem 0 1rem;
-}
+/* .course-activity-header p:before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    background-image: url(assets/course-intro/icon_activity_video.png);
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+} */
 
-.callout.callout-style-default.callout-note.callout-style-default .callout-style-simple.callout-note {
-    margin-bottom: 1rem;
-    border: 0;
-    border-left: .25rem solid var(--accent-color);
-    border-radius: 0;
-    padding: 0 .625rem;
-}
-
-.callout.callout-style-default.callout-note.callout-style-default .callout-style-simple.callout-note>.callout-body {
-    padding: 0;
-}
-
-.callout.callout-style-default.callout-note.callout-style-default .callout-style-simple.callout-note>.callout-body .callout-body-container {
-    padding-bottom: 0;
-}
-
-.callout.callout-style-default.callout-note.callout-style-default .callout-style-simple.callout-note>.callout-body .callout-body-container p {
-    padding-bottom: .2rem;
-    margin-top: .2rem;
+.course-activity-body {
+    padding: 1rem 1rem 0 1rem;
+    font-size: .9rem;
 }
 
 .callout.callout-style-default .callout-body, .callout.callout-style-simple .callout-collapse .callout-body {
     font-size: 1rem;
 }
 
-/* Accordion */
-
-.callout.callout-style-simple.accordion {
-    border-left: 5px solid;
-        border-left-color:var(--accent-color);
-    border-right: 1px solid var(--primary-color);
-    border-top: 1px solid var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
+.learning-activity-body table,
+.learning-activity-body table.table {
+    margin-top: 0;
 }
 
-.callout.callout-style-simple.accordion.callout-titled .callout-collapse .callout-body .callout-style-simple.callout-note{
-    margin-bottom: 0;
-    border: 0;
-    border-left: .25rem solid var(--accent-color);
-    border-radius: 0;
+/* Custom List Styles */
+
+/* .activity-checklist li {
+    list-style-type: none;
+    margin-left: 6px;
+    margin-bottom: 2px;
 }
 
-.callout.callout-style-simple.callout-titled .callout-collapse .callout-body > :last-child:not(.sourceCode){
-    margin-bottom: 0;
-    padding: 0 .625rem;
-}
+.activity-checklist li:before {
+    content: "";
+    margin-right: 14px;
+    margin-left: -22px;
+    height: 12px;
+    width: 8px;
+    border-bottom: 3px solid #BD9B60;
+    border-right: 3px solid #BD9B60;
+    transform: rotate(45deg);
+    display: inline-block;
+} */
 
 /* Blockquote Styles */
 
@@ -352,7 +377,7 @@ em {
     padding-right: .1rem;
 }
 
-/* Responsive Video */
+/*----------Responsive Video Embed------------------*/
 .video-container {
     position: relative; 
     padding-bottom: 56.25%;  
@@ -367,22 +392,4 @@ em {
     left: 0; 
     width: 100%; 
     height: 100%;
-}
-
-/* Responsive Tables */
-
-.parent-table-container {
-    container-type: inline-size;
-    width: 100%;
-    margin: 0 auto;
-    overflow: auto;
-}
-
-.table-container {
-    width: 100%;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
 }
