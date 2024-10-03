@@ -355,7 +355,7 @@ em {
 /* Responsive Video */
 .video-container {
     position: relative; 
-    padding-bottom: 56.25%;  
+    padding-bottom: 56.25% !important;  
     height: 0; 
     overflow: hidden;
     margin-bottom: 1em;
