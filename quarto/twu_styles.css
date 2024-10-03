@@ -358,7 +358,7 @@ em {
     padding-bottom: 56.25% !important;  
     height: 0; 
     overflow: hidden;
-    margin-bottom: 1em;
+    margin-bottom: 1em !important;
 }
   
 .video-container iframe, .video-container object, .video-container embed {
