@@ -243,6 +243,7 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
     font-size: var(--bs-body-font-size);
 }
 
+
 /* Custom Callout Styles for {.learning-activity} */
 
 .callout.callout-style-default.callout-note.no-icon.callout-titled {
