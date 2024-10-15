@@ -229,13 +229,17 @@ h1,
     margin-top: unset;
 }
 
+
 /* Custom Callout Styles for Learning Activity List */
+
+/* This is a Jeff comment */
 
 h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-note.no-icon {
     border-left: 1px solid;
     border-color: var(--primary-color);
     padding: 0 .5rem 0 .5rem;
 }
+
 
 .callout.callout-style-simple.callout-note.no-icon p,
 .callout.callout-style-simple.callout-note.no-icon ol li {
