@@ -242,7 +242,8 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 
 
 .callout.callout-style-simple.callout-note.no-icon p,
-.callout.callout-style-simple.callout-note.no-icon ol li {
+.callout.callout-style-simple.callout-note.no-icon ol li,
+.callout.callout-style-simple .callout-body {
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
 }
