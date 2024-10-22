@@ -269,8 +269,7 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
     margin-bottom: 1rem;
     border: 0;
     border-left: .25rem solid var(--accent-color);
-    border-radius: 0;
-    padding: 0 .625rem;
+    padding: 0.25rem .625rem
 }
 
 .callout.callout-style-default.callout-note.callout-style-default .callout-style-simple.callout-note>.callout-body {
