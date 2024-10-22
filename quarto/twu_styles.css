@@ -342,7 +342,6 @@ figcaption {
 figcaption,
 caption {
     text-align: left;
-    font-size: unset;
 }
 
 .caption p {
