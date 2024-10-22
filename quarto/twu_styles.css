@@ -326,6 +326,24 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
     border-left: .25rem solid var(--accent-color);
 }
 
+/* Caption Styles */
+
+.panel-caption,
+.figure-caption,
+.subfigure-caption,
+figcaption {
+    margin-bottom: 10px;
+}
+
+.panel-caption,
+.figure-caption,
+.subfigure-caption,
+.table-caption,
+figcaption,
+caption {
+    text-align: left;
+}
+
 /* Media Query */
 
 @media(max-width: 799px) {
