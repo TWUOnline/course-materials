@@ -342,6 +342,13 @@ figcaption {
 figcaption,
 caption {
     text-align: left;
+    font-size: unset;
+}
+
+.caption p {
+    font-size: .9rem;
+    color: #6d7a86;
+    line-height: 1.3;
 }
 
 /* Media Query */
