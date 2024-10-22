@@ -314,11 +314,11 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 /* Blockquote Styles */
 
 .blockquote {
-    font-size: .9em;
     padding-left: 1rem;
     padding-right: 1.5rem;
     color: unset;
-    border-left: .25rem solid var(--gray-color);
+    border-left: .25rem solid var(--accent-color-gold);
+    background-color: rgba(233, 236, 239, .65);
 }
 
 .course-activity .note blockquote {
