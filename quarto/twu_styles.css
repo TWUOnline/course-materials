@@ -425,3 +425,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
+.table>thead {
+    border-top: 1px solid #b2bac1;
+}
