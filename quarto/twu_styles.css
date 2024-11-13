@@ -308,7 +308,6 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 
 .callout.callout-style-simple.callout-titled .callout-collapse .callout-body > :last-child:not(.sourceCode){
     margin-bottom: 0;
-    padding: 0;
 }
 
 /* Blockquote Styles */
