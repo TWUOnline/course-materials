@@ -289,6 +289,11 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
     font-size: 1rem;
 }
 
+.callout.callout-titled .callout-body>:last-child:not(.sourceCode),
+.callout.callout-titled .callout-body>div>:last-child:not(.sourceCode) {
+    margin-bottom: .5rem;
+}
+
 /* Accordion */
 
 .callout.callout-style-simple.accordion {
