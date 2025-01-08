@@ -3,7 +3,75 @@
 // CSS added to override Moodle shell (2024-12)
 //
 /***********************************************/
+//
+// TWU Theme Variables
+//
+:root {
+    --f-defaults: 'Helvetica Neue', Arial, sans-serif;
+    --f-base: 'VerlagBook', 'Public Sans', var(--f-defaults);
+    --f-serif: 'EB Garamond', 'JansonText55Roman', 'Times New Roman', Times, serif;
+    --f-top-body: "Source Sans Pro",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
 
+    // Colors
+    --c-social-grey: #efeeeb;
+    --c-electric-blue: #428fec;
+    --c-dark-blue: #002143;
+    --c-trinity-blue: #002856;
+    --c-golden-lights: #bd9b60;
+    --c-pacific-sand: #c7c5ba;
+    --c-academic-grey: #cfcdc9;
+    --c-academic-grey-rgba: 207, 205, 201;
+    --c-elegant-grey: #2d2a2b;
+    --c-accessible-blue: #2375da;
+    --c-tab-border: var(--c-pacific-sand);
+    --c-thead-border: #333333;
+    --c-black: var(--c-elegant-grey);
+
+    // Primary
+    --c-primary: var(--c-electric-blue);
+    --c-primary-hover: var(--c-trinity-blue);
+    --c-primary-pressed: var(--c-trinity-blue);
+
+    --c-primary-light: var(--c-social-grey);
+    --c-primary-light-hover: #f6faff;
+    --c-primary-light-pressed: #d5e5fd;
+
+    --c-primary-dark: var(--c-elegant-grey);
+    --c-primary-dark-hover: #0233bf;
+    --c-primary-dark-pressed: #021d69;
+
+    // Secondary
+    --c-secondary: var(--c-academic-grey);
+
+    // Tertiary
+    --c-tertiary: var(--c-elegant-grey);
+    // System
+    --c-warning: #ff993a;
+    --c-error: #ef6a65;
+
+    --navbar-height: 80px;
+    --globalnav-height: 35px;
+
+    // TWU Online (TOP 2025)
+    --accent-color: #2375DA;
+    --accent-color-dark: #025187;
+    --accent-color-gold: #BD9B60;
+    --primary-color: #004684;
+    --primary-color-dark: #002856;
+    --gray-color-lighter: #EFEEEB;
+    --gray-color-light: #D9D9D9;
+    --gray-color: #E3E1D8;
+}
 //
 // Body
 //

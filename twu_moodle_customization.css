@@ -1,5 +1,48 @@
 /***********************************************/
 /***********************************************/
+:root {
+	--f-defaults: 'Helvetica Neue', Arial, sans-serif;
+	--f-base: 'VerlagBook', 'Public Sans', var(--f-defaults);
+	--f-serif: 'EB Garamond', 'JansonText55Roman', 'Times New Roman', Times, serif;
+	--f-top-body: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--c-social-grey: #efeeeb;
+	--c-electric-blue: #428fec;
+	--c-dark-blue: #002143;
+	--c-trinity-blue: #002856;
+	--c-golden-lights: #bd9b60;
+	--c-pacific-sand: #c7c5ba;
+	--c-academic-grey: #cfcdc9;
+	--c-academic-grey-rgba: 207, 205, 201;
+	--c-elegant-grey: #2d2a2b;
+	--c-accessible-blue: #2375da;
+	--c-tab-border: var(--c-pacific-sand);
+	--c-thead-border: #333;
+	--c-black: var(--c-elegant-grey);
+	--c-primary: var(--c-electric-blue);
+	--c-primary-hover: var(--c-trinity-blue);
+	--c-primary-pressed: var(--c-trinity-blue);
+	--c-primary-light: var(--c-social-grey);
+	--c-primary-light-hover: #f6faff;
+	--c-primary-light-pressed: #d5e5fd;
+	--c-primary-dark: var(--c-elegant-grey);
+	--c-primary-dark-hover: #0233bf;
+	--c-primary-dark-pressed: #021d69;
+	--c-secondary: var(--c-academic-grey);
+	--c-tertiary: var(--c-elegant-grey);
+	--c-warning: #ff993a;
+	--c-error: #ef6a65;
+	--navbar-height: 80px;
+	--globalnav-height: 35px;
+	--accent-color: #2375da;
+	--accent-color-dark: #025187;
+	--accent-color-gold: #bd9b60;
+	--primary-color: #004684;
+	--primary-color-dark: #002856;
+	--gray-color-lighter: #efeeeb;
+	--gray-color-light: #d9d9d9;
+	--gray-color: #e3e1d8;
+}
+
 body {
 	font-family: var(--f-top-body);
 }
