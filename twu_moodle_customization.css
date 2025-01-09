@@ -44,7 +44,7 @@
 }
 
 body {
-	font-family: var(--f-top-body) !important;
+	font-family: var(--f-top-body);
 }
 
 h1,
