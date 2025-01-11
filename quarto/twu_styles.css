@@ -343,7 +343,8 @@ caption {
     text-align: left;
 }
 
-.caption p {
+.caption p,
+.text-source {
     font-size: .9rem;
     color: #6d7a86;
     line-height: 1.3;
