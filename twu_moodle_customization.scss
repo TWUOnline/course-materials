@@ -381,6 +381,16 @@ ol>li>p {
 }
 
 //
+// Select Style
+//
+.form-select{
+    padding: .2rem 2.25rem .2rem .75rem;
+    border: 1px solid var(--accent-color-dark);
+    border-radius: 6px;
+    color: var(--accent-color-dark);
+}
+
+//
 // Toggle box bo show and hide
 //
 .toggle-box {

@@ -44,7 +44,7 @@
 }
 
 body {
-	font-family: var(--f-top-body);
+	font-family: var(--f-top-body) !important;
 }
 
 h1,
@@ -308,6 +308,13 @@ ol>li>p {
 	background-color: #e9ecef;
 	border-radius: 16px;
 	padding: 0.1rem 0.75rem;
+}
+
+.form-select {
+	padding: .2rem 2.25rem .2rem .75rem;
+	border: 1px solid var(--accent-color-dark);
+	border-radius: 6px;
+	color: var(--accent-color-dark);
 }
 
 .toggle-box {
