@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("select").change(function () {
         $(this).find("option:selected").each(function () {
-            const iframes = document.querySelectorAll("iframe");
+            const iframes = document.querySelectorAll("iframe.video");
             iframes.forEach((videoframe) => {
                 const iframePlayer = new Vimeo.Player(videoframe);
                 iframePlayer.pause();
