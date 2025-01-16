@@ -340,8 +340,8 @@ nav#doc-toc h2 {
 
 nav#doc-toc>ul {
 	font-size: 0.875rem;
-	padding-left: 0;
-	border-left: 1px solid #ddd;
+	padding-left: 10px;
+	border-left: 1px dotted #dee2e6;
 }
 
 nav#doc-toc>ul>li {
