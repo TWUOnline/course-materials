@@ -334,6 +334,10 @@ select.form-select {
 }
 
 /* Quarto TOC Styles */
+nav#doc-toc h2 {
+	font-size: 1rem;
+}
+
 nav#doc-toc>ul {
 	font-size: 0.875rem;
 	padding-left: 0;
@@ -346,10 +350,6 @@ nav#doc-toc>ul>li {
 
 nav#doc-toc>ul>li a.nav-link {
 	padding: 2px 10px;
-}
-
-nav#doc-toc>ul h2 {
-	font-size: 1rem;
 }
 
 .quarto-content-container {
