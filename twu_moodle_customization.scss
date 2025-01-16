@@ -412,9 +412,25 @@ This is TWU Quarto CSS
     --gray-color: #E3E1D8;
 }
 
+/* Quarto TOC Styles */
+
+nav#doc-toc>ul {
+    font-size: .875rem;
+    padding-left: 0;
+    border-left: 1px solid #ddd;
+
+    >li {
+            list-style: none;
+
+            a.nav-link {
+                padding: 2px 10px;
+            }
+    }
+}
+
 .quarto-content-container {
 
-    /** Quarto Built in css */
+    /* Quarto Built in css */
 
     h1,
     .h1 {

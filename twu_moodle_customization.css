@@ -16,7 +16,7 @@
 	--c-elegant-grey: #2d2a2b;
 	--c-accessible-blue: #2375da;
 	--c-tab-border: var(--c-pacific-sand);
-	--c-thead-border: #333;
+	--c-thead-border: #333333;
 	--c-black: var(--c-elegant-grey);
 	--c-primary: var(--c-electric-blue);
 	--c-primary-hover: var(--c-trinity-blue);
@@ -33,14 +33,14 @@
 	--c-error: #ef6a65;
 	--navbar-height: 80px;
 	--globalnav-height: 35px;
-	--accent-color: #2375da;
+	--accent-color: #2375DA;
 	--accent-color-dark: #025187;
-	--accent-color-gold: #bd9b60;
+	--accent-color-gold: #BD9B60;
 	--primary-color: #004684;
 	--primary-color-dark: #002856;
-	--gray-color-lighter: #efeeeb;
-	--gray-color-light: #d9d9d9;
-	--gray-color: #e3e1d8;
+	--gray-color-lighter: #EFEEEB;
+	--gray-color-light: #D9D9D9;
+	--gray-color: #E3E1D8;
 }
 
 body {
@@ -215,7 +215,7 @@ ol>li>p {
 }
 
 .courseindex .courseindex-item .icon.fa-circle.fa-regular {
-	color: #b1b1b1;
+	color: #B1B1B1;
 }
 
 .courseindex .courseindex-item:hover.pageitem,
@@ -311,7 +311,7 @@ ol>li>p {
 }
 
 select.form-select {
-	padding: .2rem 2.25rem .2rem .75rem;
+	padding: 0.2rem 2.25rem 0.2rem 0.75rem;
 	border: 1px solid var(--accent-color-dark);
 	border-radius: 6px;
 	color: var(--accent-color-dark);
@@ -321,26 +321,37 @@ select.form-select {
 	display: none;
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- This is TWU Quarto CSS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ This is TWU Quarto CSS
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Variables */
 :root {
-	--accent-color: #2375da;
-	--accent-color-gold: #bd9b60;
+	--accent-color: #2375DA;
+	--accent-color-gold: #BD9B60;
 	--primary-color: #004684;
 	--primary-color-dark: var(--c-trinity-blue);
-	--gray-color-lighter: #efeeeb;
-	--gray-color-light: #d9d9d9;
-	--gray-color: #e3e1d8;
+	--gray-color-lighter: #EFEEEB;
+	--gray-color-light: #D9D9D9;
+	--gray-color: #E3E1D8;
+}
+
+/* Quarto TOC Styles */
+nav#doc-toc>ul {
+	font-size: 0.875rem;
+	padding-left: 0;
+	border-left: 1px solid #ddd;
+}
+
+nav#doc-toc>ul>li {
+	list-style: none;
+}
+
+nav#doc-toc>ul>li a.nav-link {
+	padding: 2px 10px;
 }
 
 .quarto-content-container {
-	/** Quarto Built in css */
-	/* Blockquote Styles */
-	/* Caption Styles */
-	/* Media Query */
-	/* Add extra space after emphasized text */
-	/* Responsive Video */
-	/* Responsive Tables */
+	/* Quarto Built in css */
 }
 
 .quarto-content-container h1,
@@ -378,7 +389,6 @@ select.form-select {
 	border-right: 1px solid #dee2e6;
 	border-top: 1px solid #dee2e6;
 	border-bottom: 1px solid #dee2e6;
-	/* Accordion */
 }
 
 .quarto-content-container .callout.callout-style-simple .callout-body {
@@ -413,6 +423,7 @@ select.form-select {
 .quarto-content-container .callout.callout-style-simple .callout-body {
 	font-family: var(--bs-body-font-family);
 	font-size: var(--bs-body-font-size);
+	/* Accordion */
 }
 
 .quarto-content-container .callout.callout-style-simple.accordion {
@@ -566,6 +577,7 @@ select.form-select {
 	border-left: 1px solid;
 	border-color: var(--primary-color);
 	padding: 0 0.5rem 0 0.5rem;
+	/* Blockquote Styles */
 }
 
 .quarto-content-container .blockquote {
@@ -586,6 +598,7 @@ select.form-select {
 .quarto-content-container .course-activity .note blockquote {
 	padding: 0.25rem 0.625rem;
 	border-left: 0.25rem solid var(--accent-color);
+	/* Caption Styles */
 }
 
 .quarto-content-container .panel-caption,
@@ -608,6 +621,7 @@ select.form-select {
 	font-size: 0.9rem;
 	color: #6d7a86;
 	line-height: 1.3;
+	/* Media Query */
 }
 
 @media (max-width: 799px) {
@@ -624,6 +638,8 @@ select.form-select {
 }
 
 @media (min-width: 768px) {
+
+	/* Add extra space after emphasized text */
 	.quarto-content-container .column-margin.column-container .callout-margin-content:first-child {
 		margin-top: 4.5em;
 	}
@@ -635,6 +651,7 @@ select.form-select {
 
 .quarto-content-container em {
 	padding-right: 0.1rem;
+	/* Responsive Video */
 }
 
 .quarto-content-container .quarto-video {
@@ -658,6 +675,7 @@ select.form-select {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	/* Responsive Tables */
 }
 
 .quarto-content-container .parent-table-container {
