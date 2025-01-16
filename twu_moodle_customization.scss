@@ -420,11 +420,15 @@ nav#doc-toc>ul {
     border-left: 1px solid #ddd;
 
     >li {
-            list-style: none;
+        list-style: none;
 
-            a.nav-link {
-                padding: 2px 10px;
-            }
+        a.nav-link {
+            padding: 2px 10px;
+        }
+    }
+
+    h2 {
+        font-size: 1rem;
     }
 }
 
