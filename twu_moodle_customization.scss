@@ -448,6 +448,11 @@ nav#doc-toc {
         margin-top: 1rem;
     }
 
+    b,
+    strong {
+        font-family: var(--f-top-body);
+    }
+
     .quarto-dashboard .callout {
         margin-bottom: 0;
         margin-top: 0;
