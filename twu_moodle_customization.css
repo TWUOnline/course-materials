@@ -367,6 +367,10 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-top: unset;
 }
 
+.quarto-content-container p {
+	margin-top: 1rem;
+}
+
 .quarto-content-container .quarto-dashboard .callout {
 	margin-bottom: 0;
 	margin-top: 0;
