@@ -451,7 +451,7 @@ nav#doc-toc {
     b,
     strong {
         font-family: var(--f-top-body);
-        font-weight: bold;
+        font-weight: bold !important;
     }
 
     .quarto-dashboard .callout {

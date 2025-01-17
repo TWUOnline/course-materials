@@ -374,7 +374,7 @@ nav#doc-toc>ul>li a.nav-link {
 .quarto-content-container b,
 .quarto-content-container strong {
 	font-family: var(--f-top-body);
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .quarto-content-container .quarto-dashboard .callout {
