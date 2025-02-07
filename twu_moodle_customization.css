@@ -106,6 +106,7 @@ ol>li>p {
 .path-mod .activity-information .completion-info button.btn {
 	float: right;
 	border-color: var(--accent-color-dark);
+	background-color: white;
 	color: var(--accent-color-dark);
 	border-width: 2px;
 	border-radius: 20px;
@@ -113,7 +114,8 @@ ol>li>p {
 	text-transform: uppercase;
 }
 
-.path-mod .activity-information .completion-info button.btn:hover {
+.path-mod .activity-information .completion-info button.btn:hover,
+.path-mod .activity-information .completion-info button.btn.btn-success {
 	background-color: var(--accent-color-dark);
 	color: white;
 }
@@ -142,17 +144,18 @@ ol>li>p {
 
 .activity-item:not(.activityinline) .activity-completion button.btn,
 .activity-item:not(.activityinline) .activity-completion a[role="button"].btn {
-	color: #fff;
-	background-color: var(--accent-color-dark);
+	color: var(--accent-color-dark);
+	border-color: var(--accent-color-dark);
+	border-width: 2px;
 	border-radius: 16px;
 	font-weight: normal;
+	padding: 0 15px;
 }
 
 .activity-item:not(.activityinline) .activity-completion button.btn:hover,
 .activity-item:not(.activityinline) .activity-completion a[role="button"].btn:hover {
 	color: #fff;
-	background-color: var(--c-trinity-blue);
-	border-color: #ced4da;
+	background-color: var(--accent-color-dark);
 }
 
 .drawerheader {

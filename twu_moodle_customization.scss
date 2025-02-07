@@ -156,13 +156,14 @@ ol>li>p {
 
         button.btn {
             float: right;
-            background-color: var(--accent-color-dark);
-            color: white;
+            background-color: white;
+            color: var(--accent-color-dark);
             border-radius: 16px;
-            padding: 5px 15px;
+            padding: 4px 15px;
             text-transform: uppercase;
 
-            &:hover {
+            &:hover,
+            &.btn-success {
                 background-color: var(--accent-color-dark);
                 color: white;
             }
@@ -197,15 +198,16 @@ ol>li>p {
 
         button.btn,
         a[role="button"].btn {
-            color: #fff;
-            background-color: var(--accent-color-dark);
+            color: var(--accent-color-dark);
+            border-color: var(--accent-color-dark);
+            border-width: 2px;
             border-radius: 16px;
             font-weight: normal;
+            padding: 0 15px;
 
             &:hover {
                 color: #fff;
-                background-color: var(--c-trinity-blue);
-                border-color: #ced4da;
+                background-color: var(--accent-color-dark);
             }
         }
     }
