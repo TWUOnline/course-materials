@@ -144,7 +144,8 @@ ol>li>p {
 .activity-item:not(.activityinline) .activity-completion a[role="button"].btn {
 	color: #fff;
 	background-color: var(--accent-color-dark);
-	border-radius: 6px;
+	border-radius: 16px;
+	font-weight: normal;
 }
 
 .activity-item:not(.activityinline) .activity-completion button.btn:hover,

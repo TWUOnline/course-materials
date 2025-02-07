@@ -199,7 +199,8 @@ ol>li>p {
         a[role="button"].btn {
             color: #fff;
             background-color: var(--accent-color-dark);
-            border-radius: 6px;
+            border-radius: 16px;
+            font-weight: normal;
 
             &:hover {
                 color: #fff;
