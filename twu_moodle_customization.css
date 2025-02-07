@@ -105,12 +105,10 @@ ol>li>p {
 
 .path-mod .activity-information .completion-info button.btn {
 	float: right;
-	border-color: var(--accent-color-dark);
 	background-color: white;
 	color: var(--accent-color-dark);
-	border-width: 2px;
-	border-radius: 20px;
-	padding: 5px 15px;
+	border-radius: 16px;
+	padding: 4px 15px;
 	text-transform: uppercase;
 }
 
