@@ -103,6 +103,21 @@ ol>li>p {
 	padding-bottom: 0;
 }
 
+.path-mod .activity-information .completion-info button.btn {
+	float: right;
+	border-color: var(--accent-color-dark);
+	color: var(--accent-color-dark);
+	border-width: 2px;
+	border-radius: 20px;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+
+.path-mod .activity-information .completion-info button.btn:hover {
+	background-color: var(--accent-color-dark);
+	color: white;
+}
+
 .path-mod .automatic-completion-conditions .badge {
 	background-color: var(--accent-color-dark);
 	float: right;

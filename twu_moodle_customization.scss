@@ -153,6 +153,20 @@ ol>li>p {
     .activity-information .completion-info {
         padding-top: 0;
         padding-bottom: 0;
+
+        button.btn {
+            float: right;
+            background-color: var(--accent-color-dark);
+            color: white;
+            border-radius: 16px;
+            padding: 5px 15px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: var(--accent-color-dark);
+                color: white;
+            }
+        }
     }
 
     .automatic-completion-conditions .badge {
