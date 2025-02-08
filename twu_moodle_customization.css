@@ -386,6 +386,10 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-top: unset;
 }
 
+.quarto-content-container section > h2 {
+	display: none;
+}
+
 .quarto-content-container p {
 	margin-top: 1rem;
 }

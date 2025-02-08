@@ -463,6 +463,10 @@ nav#doc-toc {
         margin-top: unset;
     }
 
+    section > h2 {
+        display: none;
+    }
+
     p {
         margin-top: 1rem;
     }
