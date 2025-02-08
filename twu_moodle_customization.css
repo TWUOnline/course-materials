@@ -153,7 +153,9 @@ ol>li>p {
 }
 
 .activity-item:not(.activityinline) .activity-completion button.btn:hover,
-.activity-item:not(.activityinline) .activity-completion a[role="button"].btn:hover {
+.activity-item:not(.activityinline) .activity-completion a[role="button"].btn:hover,
+.activity-item:not(.activityinline) .activity-completion button.btn.btn-success,
+.activity-item:not(.activityinline) .activity-completion a[role="button"].btn.btn-success{
 	color: #fff;
 	background-color: var(--accent-color-dark);
 }

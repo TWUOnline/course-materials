@@ -207,7 +207,8 @@ ol>li>p {
             padding: 0 15px;
             text-transform: uppercase;
 
-            &:hover {
+            &:hover,
+            &.btn-success {
                 color: #fff;
                 background-color: var(--accent-color-dark);
             }
