@@ -110,6 +110,7 @@ ol>li>p {
 	border-radius: 16px;
 	padding: 4px 15px;
 	text-transform: uppercase;
+	border-width: 2px;
 }
 
 .path-mod .activity-information .completion-info button.btn:hover,
@@ -148,6 +149,7 @@ ol>li>p {
 	border-radius: 16px;
 	font-weight: normal;
 	padding: 0 15px;
+	text-transform: uppercase;
 }
 
 .activity-item:not(.activityinline) .activity-completion button.btn:hover,

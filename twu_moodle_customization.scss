@@ -161,6 +161,7 @@ ol>li>p {
             border-radius: 16px;
             padding: 4px 15px;
             text-transform: uppercase;
+            border-width: 2px;
 
             &:hover,
             &.btn-success {
@@ -204,6 +205,7 @@ ol>li>p {
             border-radius: 16px;
             font-weight: normal;
             padding: 0 15px;
+            text-transform: uppercase;
 
             &:hover {
                 color: #fff;
