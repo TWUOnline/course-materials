@@ -393,9 +393,13 @@ nav#doc-toc>ul>li a.nav-link {
 	font-weight: bold !important;
 }
 
+.quarto-content-container .figure-img {
+	margin-bottom: 0;
+}
+
 .quarto-content-container .quarto-figure-left>figure>p,
 .quarto-content-container .quarto-figure-left>figure>div {
-	border: 1px solid #ddd;
+	border: 1px solid #eee;
 }
 
 .quarto-content-container .quarto-dashboard .callout {
