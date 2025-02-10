@@ -481,6 +481,11 @@ nav#doc-toc {
         font-weight: bold !important;
     }
 
+    .quarto-figure-left>figure>p,
+    .quarto-figure-left>figure>div {
+        border: 1px solid #ddd;
+    }
+
     .quarto-dashboard .callout {
         margin-bottom: 0;
         margin-top: 0;
