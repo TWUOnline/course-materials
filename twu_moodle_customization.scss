@@ -481,6 +481,14 @@ nav#doc-toc {
         font-weight: bold !important;
     }
 
+    .img-fluid,
+    .quarto-video {
+        max-width: 749px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
     .quarto-dashboard .callout {
         margin-bottom: 0;
         margin-top: 0;

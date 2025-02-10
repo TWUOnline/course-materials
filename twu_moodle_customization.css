@@ -397,6 +397,14 @@ nav#doc-toc>ul>li a.nav-link {
 	font-weight: bold !important;
 }
 
+.quarto-content-container .img-fluid,
+.quarto-content-container .quarto-video {
+	max-width: 749px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
 .quarto-content-container .quarto-dashboard .callout {
 	margin-bottom: 0;
 	margin-top: 0;
