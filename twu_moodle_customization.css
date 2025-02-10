@@ -482,6 +482,7 @@ nav#doc-toc>ul>li a.nav-link {
 .quarto-content-container .callout.callout-style-simple.callout-titled .callout-collapse .callout-body> :last-child:not(.sourceCode),
 .quarto-content-container .callout.callout-style-simple .callout-body p:last-child:not(.sourceCode) {
 	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .quarto-content-container .callout.callout-style-default {

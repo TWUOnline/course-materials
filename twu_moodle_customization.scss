@@ -565,6 +565,7 @@ nav#doc-toc {
             &.callout-titled .callout-collapse .callout-body> :last-child:not(.sourceCode),
             .callout-body p:last-child:not(.sourceCode) {
                 margin-bottom: 0;
+                margin-top: 0;
             }
         }
 
