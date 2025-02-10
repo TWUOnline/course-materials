@@ -387,10 +387,6 @@ nav#doc-toc>ul>li a.nav-link {
 	display: none;
 }
 
-.quarto-content-container p {
-	margin-top: 1rem;
-}
-
 .quarto-content-container b,
 .quarto-content-container strong {
 	font-family: var(--f-top-body);
