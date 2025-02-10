@@ -374,13 +374,8 @@ nav#doc-toc>ul>li a.nav-link {
 }
 
 .quarto-content-container {
-	/* Quarto Built in css */
-	/* Blockquote Styles */
-	/* Caption Styles */
-	/* Media Query */
-	/* Add extra space after emphasized text */
-	/* Responsive Video */
-	/* Responsive Tables */
+	margin: 0 auto;
+	max-width: 1164px;
 }
 
 .quarto-content-container h1,
