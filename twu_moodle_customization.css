@@ -705,6 +705,10 @@ nav#doc-toc>ul>li a.nav-link {
 	height: 0;
 	overflow: hidden;
 	margin-bottom: 1em !important;
+	max-width: 749px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .quarto-content-container .video-container iframe,
