@@ -566,8 +566,7 @@ nav#doc-toc>ul>li a.nav-link {
 .quarto-content-container .callout.callout-style-default .callout-style-simple.callout-note {
 	margin-bottom: 1rem;
 	border: 0;
-	border-left: 0.25rem solid var(--accent-color);
-	padding: 0.25rem 0.625rem;
+	padding: 0;
 }
 
 .quarto-content-container .callout.callout-style-default .callout-style-simple.callout-note>.callout-body {
