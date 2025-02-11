@@ -402,10 +402,6 @@ nav#doc-toc>ul>li a.nav-link {
 	border: 1px solid #eee;
 }
 
-.quarto-content-container #learning-activities .callout-icon-container .no-icon {
-	display: none;
-}
-
 .quarto-content-container .quarto-dashboard .callout {
 	margin-bottom: 0;
 	margin-top: 0;
@@ -416,6 +412,10 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-bottom: 1.25rem;
 	border-radius: 0.25rem;
 	overflow-wrap: break-word;
+}
+
+.quarto-content-container .callout-icon-container .no-icon {
+	display: none;
 }
 
 .quarto-content-container .callout pre.sourceCode {

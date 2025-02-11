@@ -491,15 +491,15 @@ nav#doc-toc {
         margin-top: 0;
     }
 
-    #learning-activities .callout-icon-container .no-icon {
-        display: none;
-    }
-
     .callout {
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
         border-radius: 0.25rem;
         overflow-wrap: break-word;
+
+        .callout-icon-container .no-icon {
+            display: none;
+        }
 
         pre.sourceCode {
             padding-left: 0;
