@@ -86,6 +86,10 @@ ol>li>p {
 	padding-left: 30px !important;
 }
 
+.no-overflow {
+	overflow: hidden;
+}
+
 .border-left {
 	border-left: 1px solid #cfcdc9;
 }

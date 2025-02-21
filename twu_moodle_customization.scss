@@ -132,6 +132,10 @@ ol>li>p {
     border-left: 1px solid #cfcdc9;
 }
 
+.no-overflow {
+    overflow: hidden;
+}
+
 //
 // Header & Top Navbar
 //
@@ -203,8 +207,6 @@ ol>li>p {
 .activitytitle .badge {
     padding: 0;
 }
-
-
 
 .activity-item:not(.activityinline) {
     border: 0;
