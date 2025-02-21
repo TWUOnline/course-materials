@@ -137,14 +137,14 @@ ol>li>p {
 .path-mod .automatic-completion-conditions .badge {
 	background-color: var(--accent-color-dark);
 	float: right;
+	color: white;
+	font-size: 100%;
 }
 
 .path-mod .automatic-completion-conditions .badge .icon {
 	width: 1rem;
 	height: 1rem;
 	font-size: 1rem;
-	padding-right: 5px;
-	padding-left: 5px;
 }
 
 .activitytitle .badge {
