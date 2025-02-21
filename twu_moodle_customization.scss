@@ -334,6 +334,19 @@ ol>li>p {
 //
 .course-content {
 
+    .badge {
+        background-color: #bd9b60;
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        padding: 7px 20px;
+        margin: 0 0 5px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 12px;
+    }
+
     .single-section .section-navigation:not(.mdl-bottom) {
         display: none !important;
     }
