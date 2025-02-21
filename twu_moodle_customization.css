@@ -277,7 +277,7 @@ ol>li>p {
 	display: none !important;
 }
 
-.course-content .badge {
+.course-content .badge:not(.activitybadge) {
 	background-color: #bd9b60;
 	color: #fff;
 	border: none;

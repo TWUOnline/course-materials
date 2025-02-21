@@ -334,7 +334,7 @@ ol>li>p {
 //
 .course-content {
 
-    .badge {
+    .badge:not(.activitybadge) {
         background-color: #bd9b60;
         color: #fff;
         border: none;
