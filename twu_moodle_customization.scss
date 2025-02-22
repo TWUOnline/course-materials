@@ -513,6 +513,10 @@ nav#doc-toc {
         display: none;
     }
 
+    section > h3.anchored {
+        margin-top: 20px;
+    }
+
     b,
     strong {
         font-family: var(--f-top-body);

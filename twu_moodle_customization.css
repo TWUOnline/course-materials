@@ -427,6 +427,10 @@ nav#doc-toc>ul>li a.nav-link {
 	display: none;
 }
 
+.quarto-content-container section > h3.anchored {
+	margin-top: 20px;
+}
+
 .quarto-content-container b,
 .quarto-content-container strong {
 	font-family: var(--f-top-body);
