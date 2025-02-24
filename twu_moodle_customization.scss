@@ -385,8 +385,8 @@ ol>li>p {
 .activity-navigation #prev-activity-link,
 .activity-navigation #next-activity-link,
 .format-onetopic .section-navigation a {
-    font-family: 'Open Sans';
-    font-size: 14px;
+    font-size: 15px;
+    font-family: var(--f-top-body) !important;
 
     span.rarrow {
         padding-left: 6px;
