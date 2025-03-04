@@ -258,6 +258,12 @@ ol>li>p {
 	color: #b1b1b1;
 }
 
+.courseindex .courseindex-item .icon.fa-lock {
+	font-size: 14px;
+	top: -3px;
+	position: relative;
+}
+
 .courseindex .courseindex-item:hover.pageitem,
 .courseindex .courseindex-item:hover .pageitem,
 .courseindex .courseindex-item:focus.pageitem,
