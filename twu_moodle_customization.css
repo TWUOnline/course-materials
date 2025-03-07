@@ -160,10 +160,8 @@ ol>li>p {
 	padding: 0;
 }
 
-.activity-item:not(.activityinline) ol ol,
-.activity-item:not(.activityinline) ul ul,
-.activity-item:not(.activityinline) ol ul,
-.activity-item:not(.activityinline) ul ol {
+.activity-item:not(.activityinline) ol,
+.activity-item:not(.activityinline) ul {
 	margin-bottom: unset;
 }
 
