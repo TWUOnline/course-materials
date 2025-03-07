@@ -231,6 +231,13 @@ ol>li>p {
             }
         }
     }
+
+    ol ol,
+    ul ul,
+    ol ul,
+    ul ol {
+        margin-bottom: unset;
+    }
 }
 
 //

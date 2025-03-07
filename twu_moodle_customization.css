@@ -160,6 +160,13 @@ ol>li>p {
 	padding: 0;
 }
 
+.activity-item:not(.activityinline) ol ol,
+.activity-item:not(.activityinline) ul ul,
+.activity-item:not(.activityinline) ol ul,
+.activity-item:not(.activityinline) ul ol {
+	margin-bottom: unset;
+}
+
 .activity-item:not(.activityinline) .activity-completion button.btn,
 .activity-item:not(.activityinline) .activity-completion a[role="button"].btn {
 	color: var(--accent-color-dark);
@@ -280,7 +287,7 @@ ol>li>p {
 }
 
 .course-content .single-section .section-navigation:not(.mdl-bottom) {
-	display: none !important;
+	display: none !important; 
 }
 
 .course-content .badge:not(.activitybadge) {
