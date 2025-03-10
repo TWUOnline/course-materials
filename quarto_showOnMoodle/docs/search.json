@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COURSE NAME",
+    "section": "",
+    "text": "Welcome\nThis is the course book for COURSE NUMBER. This book is divided into thematic units of study to help you engage with the materials. The course resources and learning activities are designed not only to help prepare you for the course assessments, but also to give you opportunities to practice various skills.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#course-activities",
+    "href": "index.html#course-activities",
+    "title": "COURSE NAME",
+    "section": "Course Activities",
+    "text": "Course Activities\nBelow is some key information on features you may see throughout the course.\n\n\n\n\n\n\n\n\n\n\nThis box will prompt you to engage in course concepts by:\n\nViewing resources and reflecting on your experience and/or learning.\nChecking your understanding to make sure you are ready for what follows. Ways to check your learning might include self-check quizzes or questions for discussion.\n\n\n\n\n\n\n\nWorking through course activities will help you to meet the learning outcomes and successfully complete your assessments.\n\n\n\n\n\nBelow is an accordion.\n\n                    \n                        \n                            \n                        \n                        \n                            This is an accordion. Click/tap this banner to show/hide the content.\n                        \n                        \n                    \n                    \n                        \n                  \nAn accordion may contain extra content such as worked examples or sample answers.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "textToSpeech.html",
+    "href": "textToSpeech.html",
+    "title": "Text-to-Speech Support",
+    "section": "",
+    "text": "Text-to-Speech Support\nThere are an increasing number of tools that can read text aloud from a webpage and allow users to listen to the text. Many people who require these tools for everyday use (such as people who have low or no vision) already have robust tools that they use. If you are interested in trying out a text-to-speech tool, which may help you engage with the course materials while you are commuting or otherwise ‘busy’, or if you want to listen to the text while you read, feel free to follow the instructions below.",
+    "crumbs": [
+      "Text-to-Speech Support"
+    ]
+  },
+  {
+    "objectID": "textToSpeech.html#for-users-of-ms-edge",
+    "href": "textToSpeech.html#for-users-of-ms-edge",
+    "title": "Text-to-Speech Support",
+    "section": "For Users of MS Edge",
+    "text": "For Users of MS Edge\nMicrosoft Edge’s Read Aloud feature can enhance comprehension and retention of complex texts by allowing the user to listen while reading. It also offers a hands-free learning experience, making it convenient for focus or for individuals with visual impairments.\nThese instructions will not apply if you use a browser other than MS Edge.\n\nDesktop Use\n\nLog onto Moodle course page in MS Edge.\n\nFind the shortcut key to Read Aloud on the top right corner.\n\n\nClick on “Voice Options” to adjust the speed.\n\n\n\n\nAndroid Use\n\nAfter installing Microsoft Edge from the Play Store, log onto Moodle course page.\n\n\nIt will start reading the page out loud.\n\n\nClick on top right icon to adjust speed and voice.\n\n\nMore setting options.",
+    "crumbs": [
+      "Text-to-Speech Support"
+    ]
+  },
+  {
+    "objectID": "textToSpeech.html#for-iphone-users",
+    "href": "textToSpeech.html#for-iphone-users",
+    "title": "Text-to-Speech Support",
+    "section": "For IPhone users",
+    "text": "For IPhone users\n\nSettings &gt; Accessibility &gt; Spoken Content. From there, you can turn on Speak Selection or Speak Screen.\n\n\n\n\nAfter logging onto the Moodle site on your Safari, a speak button will appear when you select text.\n\n\nSwipe down with two fingers from the top of the screen to hear the content of the screen.\n\n\nIf you want information on another tool, please reach out to elearning@twu.ca.",
+    "crumbs": [
+      "Text-to-Speech Support"
+    ]
+  }
+]
