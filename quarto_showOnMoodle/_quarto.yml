@@ -34,7 +34,7 @@ book:
 #    - references.qmd
 
 # References
-bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
+#bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
 csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
 link-citations: false
