@@ -24,7 +24,7 @@
     "href": "textToSpeech.html",
     "title": "Text-to-Speech Support",
     "section": "",
-    "text": "Text-to-Speech Support\nThere are an increasing number of tools that can read text aloud from a webpage and allow users to listen to the text. Many people who require these tools for everyday use (such as people who have low or no vision) already have robust tools that they use. If you are interested in trying out a text-to-speech tool, which may help you engage with the course materials while you are commuting or otherwise ‘busy’, or if you want to listen to the text while you read, feel free to follow the instructions below.",
+    "text": "Text-to-Speech Support\nText-to-speech (TTS) tools are increasingly available and can enhance your learning experience by allowing you to listen to text on a webpage. These tools are especially helpful for individuals with low or no vision, as well as anyone who prefers listening while commuting, multitasking, or reinforcing understanding through audio.\nIf you’re interested in trying out a TTS tool, follow the instructions below based on your device and browser.",
     "crumbs": [
       "Text-to-Speech Support"
     ]
@@ -45,6 +45,16 @@
     "title": "Text-to-Speech Support",
     "section": "For IPhone users",
     "text": "For IPhone users\n\nSettings &gt; Accessibility &gt; Spoken Content. From there, you can turn on Speak Selection or Speak Screen.\n\n\n\n\nAfter logging onto the Moodle site on your Safari, a speak button will appear when you select text.\n\n\nSwipe down with two fingers from the top of the screen to hear the content of the screen.\n\n\nIf you want information on another tool, please reach out to elearning@twu.ca.",
+    "crumbs": [
+      "Text-to-Speech Support"
+    ]
+  },
+  {
+    "objectID": "textToSpeech.html#text-to-speech-support",
+    "href": "textToSpeech.html#text-to-speech-support",
+    "title": "Text-to-Speech Support",
+    "section": "",
+    "text": "For Microsoft Edge Users\nMicrosoft Edge includes a built-in Read Aloud feature that supports better comprehension and accessibility by letting you listen to webpage content. It’s ideal for hands-free learning or for reading along with the spoken text.\nNote: These instructions only apply if you’re using Microsoft Edge as your browser.\n\nOn Desktop (Windows/macOS):\n\nOpen your Moodle course page using Microsoft Edge.\nClick the Read Aloud icon located in the top right corner of the browser.\n\n\n\n\n\n\n\nClick Voice Options to adjust the reading speed and voice preferences.\n\n\n\n\n\n\n\n\nOn Android Devices:\n\nInstall Microsoft Edge from the Google Play Store.\nOpen your Moodle course page in the Edge browser.\n\n\n\n\n\n\n\nTap the Read Aloud icon.\n\n\n\n\n\n\n\nUse the top-right menu to adjust speed, voice, and other settings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor iPhone/iPad Users (Safari)\nApple devices have built-in text-to-speech support via Accessibility settings.\n\nGo to Settings &gt; Accessibility &gt; Spoken Content.\n\n\n\n\n\n\n\n\n\n\n\n\nTurn on Speak Selection and/or Speak Screen.\n\n\n\n\n\n\n\nOpen your Moodle course page in Safari.\nTo use:\n\nSpeak Selection: Select text and tap Speak.\n\n\n\n\n\n\n\nSpeak Screen: Swipe down with two fingers from the top of the screen to have the full screen read aloud.\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you want information on another tool, please reach out to elearning@twu.ca.",
     "crumbs": [
       "Text-to-Speech Support"
     ]

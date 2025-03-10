@@ -2,44 +2,76 @@
 
 ## Text-to-Speech Support {.unnumbered}
 
-There are an increasing number of tools that can read text aloud from a webpage and allow users to listen to the text. Many people who require these tools for everyday use (such as people who have low or no vision) already have robust tools that they use. If you are interested in trying out a text-to-speech tool, which may help you engage with the course materials while you are commuting or otherwise ‘busy’, or if you want to listen to the text while you read, feel free to follow the instructions below.
+Text-to-speech (TTS) tools are increasingly available and can enhance your learning experience by allowing you to listen to text on a webpage. These tools are especially helpful for individuals with low or no vision, as well as anyone who prefers listening while commuting, multitasking, or reinforcing understanding through audio.
 
-## For Users of MS Edge
+If you’re interested in trying out a TTS tool, follow the instructions below based on your device and browser.
 
-Microsoft Edge's Read Aloud feature can enhance comprehension and retention of complex texts by allowing the user to listen while reading. It also offers a hands-free learning experience, making it convenient for focus or for individuals with visual impairments.
+### For Microsoft Edge Users
 
-These instructions will not apply if you use a browser other than MS Edge.
+Microsoft Edge includes a built-in **Read Aloud** feature that supports better comprehension and accessibility by letting you listen to webpage content. It’s ideal for hands-free learning or for reading along with the spoken text.
 
-### Desktop Use
+Note: *These instructions only apply if you're using Microsoft Edge as your browser.*
 
-1. Log onto Moodle course page in MS Edge.  
-2. Find the shortcut key to Read Aloud on the top right corner.  
-![Find the shortcut key to Read Aloud on the top right corner.](assets/textToSpeech/desktop1.png)  
-1. Click on "Voice Options" to adjust the speed.  
-![Voice Options](assets/textToSpeech/desktop2.png)
+#### On Desktop (Windows/macOS):
 
-### Android Use
-1. After installing Microsoft Edge from the [Play Store](https://play.google.com/store/search?q=edge&c=apps&hl=en){target="_blank"}, log onto Moodle course page.  
-![MS Edge - Android Use](assets/textToSpeech/mobile1.jpeg)  
-2. It will start reading the page out loud.  
-![Reading Page](assets/textToSpeech/mobile2.jpeg)  
-3. Click on top right icon to adjust speed and voice.  
-![Adjust Speed and Voice](assets/textToSpeech/mobile3.jpeg)  
-4. More setting options.  
-![More Settings](assets/textToSpeech/mobile4.jpeg)
+1. Open your Moodle course page using Microsoft Edge.
+   
+2. Click the **Read Aloud** icon located in the top right corner of the browser.
+   
+![Find the shortcut key to Read Aloud on the top right corner.](assets/textToSpeech/desktop1.png){.lightbox}   
 
-## For IPhone users
+3. Click **Voice Options** to adjust the reading speed and voice preferences.
+ 
+![Voice Options](assets/textToSpeech/desktop2.png){.lightbox} 
 
-1. Settings > Accessibility > Spoken Content. From there, you can turn on Speak Selection or Speak Screen.  
-![iOS Settings](assets/textToSpeech/ios1.jpg)  
-![iOS Settings](assets/textToSpeech/ios2.jpg)  
-![iOS Settings](assets/textToSpeech/ios3.jpg)  
-2. After logging onto the Moodle site on your Safari, a speak button will appear when you select text.  
-![Speak Button](assets/textToSpeech/ios4.png)  
-3. Swipe down with two fingers from the top of the screen to hear the content of the screen.  
-![Swipe Down](assets/textToSpeech/ios5.png)
+#### On Android Devices:
+
+1. Install **Microsoft Edge** from the [Google Play Store](https://play.google.com/store/search?q=edge&c=apps&hl=en){target="_blank"}.
+   
+2. Open your Moodle course page in the Edge browser.
+    
+![MS Edge - Android Use](assets/textToSpeech/mobile1.jpeg){.lightbox width=375}
+
+3. Tap the **Read Aloud** icon. 
+   
+![Reading Page](assets/textToSpeech/mobile2.jpeg){.lightbox width=375} 
+
+4. Use the top-right menu to adjust **speed**, **voice**, and other **settings**.
+   
+![Adjust Speed and Voice](assets/textToSpeech/mobile3.jpeg){.lightbox width=375}
+   
+![More Settings](assets/textToSpeech/mobile4.jpeg){.lightbox width=375}
+
+### For iPhone/iPad Users (Safari)
+
+Apple devices have built-in text-to-speech support via Accessibility settings.
+
+1. Go to **Settings > Accessibility > Spoken Content**.
+    
+![iOS Settings - Accessibility](assets/textToSpeech/ios1.jpg){.lightbox width=375}
+
+![iOS Settings - Spoken Content](assets/textToSpeech/ios2.jpg){.lightbox width=375}  
+
+2. Turn on **Speak Selection** and/or **Speak Screen**.
+   
+![iOS Settings - Speak Selection](assets/textToSpeech/ios3.jpg){.lightbox width=375} 
+
+3. Open your Moodle course page in Safari.
+
+4. To use:
+   - **Speak Selection**: Select text and tap Speak.
+  
+    ![Speak Button](assets/textToSpeech/ios4.png){.lightbox width=375}  
+  
+   - **Speak Screen**: Swipe down with two fingers from the top of the screen to have the full screen read aloud.
+
+    ![Swipe Down](assets/textToSpeech/ios5.png){.lightbox width=375}
+
+::: {.note icon="true"}
 
 If you want information on another tool, please reach out to [elearning@twu.ca](mailto:elearning@twu.ca).
+
+:::
 
 <!-- ### For Users of Chrome
 
