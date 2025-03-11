@@ -23,6 +23,7 @@ book:
 #    - u5.qmd
 #    - u6.qmd
     - textToSpeech.qmd
+    -  community.qmd
 #    - assignment1.qmd
 #    - assignment2.qmd
 #    - assignment3.qmd
@@ -34,7 +35,7 @@ book:
 #    - references.qmd
 
 # References
-#bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
+bibliography: https://twuonline.github.io/course-materials/quarto/references.bib
 csl: https://twuonline.github.io/course-materials/quarto/apa.csl
 link-bibliography: true
 link-citations: false
