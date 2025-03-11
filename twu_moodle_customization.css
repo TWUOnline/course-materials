@@ -452,6 +452,10 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-bottom: 0;
 }
 
+.quarto-content-container .quarto-figure-center table {
+	text-align: left;
+}
+
 .quarto-content-container .quarto-figure-left>figure>p,
 .quarto-content-container .quarto-figure-left>figure>div {
 	border: 1px solid #eee;

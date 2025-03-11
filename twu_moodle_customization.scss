@@ -538,6 +538,10 @@ nav#doc-toc {
        margin-bottom: 0; 
     }
 
+    .quarto-figure-center table {
+        text-align: left;
+    }
+
     .quarto-figure-left>figure>p,
     .quarto-figure-left>figure>div {
         border: 1px solid #eee;
