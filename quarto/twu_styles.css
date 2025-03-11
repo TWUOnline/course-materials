@@ -349,6 +349,12 @@ caption {
     line-height: 1.3;
 }
 
+/* Figure Styles */
+
+.quarto-figure-center table {
+    text-align: left;
+}
+
 /* Media Query */
 
 @media(max-width: 799px) {
