@@ -14,3 +14,7 @@ assignees: ''
 ### Hyperlinks are live
 - [ ] Moodle
 - [ ] Course Books
+
+### Gradebook
+- [ ] Check 'Course Grade Settings'
+  - [ ] hide all fields except 'Grades' and 'feedback'

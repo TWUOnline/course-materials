@@ -30,26 +30,6 @@
     ]
   },
   {
-    "objectID": "textToSpeech.html#for-users-of-ms-edge",
-    "href": "textToSpeech.html#for-users-of-ms-edge",
-    "title": "Text-to-Speech Support",
-    "section": "For Users of MS Edge",
-    "text": "For Users of MS Edge\nMicrosoft Edge’s Read Aloud feature can enhance comprehension and retention of complex texts by allowing the user to listen while reading. It also offers a hands-free learning experience, making it convenient for focus or for individuals with visual impairments.\nThese instructions will not apply if you use a browser other than MS Edge.\n\nDesktop Use\n\nLog onto Moodle course page in MS Edge.\n\nFind the shortcut key to Read Aloud on the top right corner.\n\n\nClick on “Voice Options” to adjust the speed.\n\n\n\n\nAndroid Use\n\nAfter installing Microsoft Edge from the Play Store, log onto Moodle course page.\n\n\nIt will start reading the page out loud.\n\n\nClick on top right icon to adjust speed and voice.\n\n\nMore setting options.",
-    "crumbs": [
-      "Text-to-Speech Support"
-    ]
-  },
-  {
-    "objectID": "textToSpeech.html#for-iphone-users",
-    "href": "textToSpeech.html#for-iphone-users",
-    "title": "Text-to-Speech Support",
-    "section": "For IPhone users",
-    "text": "For IPhone users\n\nSettings &gt; Accessibility &gt; Spoken Content. From there, you can turn on Speak Selection or Speak Screen.\n\n\n\n\nAfter logging onto the Moodle site on your Safari, a speak button will appear when you select text.\n\n\nSwipe down with two fingers from the top of the screen to hear the content of the screen.\n\n\nIf you want information on another tool, please reach out to elearning@twu.ca.",
-    "crumbs": [
-      "Text-to-Speech Support"
-    ]
-  },
-  {
     "objectID": "textToSpeech.html#text-to-speech-support",
     "href": "textToSpeech.html#text-to-speech-support",
     "title": "Text-to-Speech Support",
@@ -57,6 +37,36 @@
     "text": "For Microsoft Edge Users\nMicrosoft Edge includes a built-in Read Aloud feature that supports better comprehension and accessibility by letting you listen to webpage content. It’s ideal for hands-free learning or for reading along with the spoken text.\nNote: These instructions only apply if you’re using Microsoft Edge as your browser.\n\nOn Desktop (Windows/macOS):\n\nOpen your Moodle course page using Microsoft Edge.\nClick the Read Aloud icon located in the top right corner of the browser.\n\n\n\n\n\n\n\nClick Voice Options to adjust the reading speed and voice preferences.\n\n\n\n\n\n\n\n\nOn Android Devices:\n\nInstall Microsoft Edge from the Google Play Store.\nOpen your Moodle course page in the Edge browser.\n\n\n\n\n\n\n\nTap the Read Aloud icon.\n\n\n\n\n\n\n\nUse the top-right menu to adjust speed, voice, and other settings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor iPhone/iPad Users (Safari)\nApple devices have built-in text-to-speech support via Accessibility settings.\n\nGo to Settings &gt; Accessibility &gt; Spoken Content.\n\n\n\n\n\n\n\n\n\n\n\n\nTurn on Speak Selection and/or Speak Screen.\n\n\n\n\n\n\n\nOpen your Moodle course page in Safari.\nTo use:\n\nSpeak Selection: Select text and tap Speak.\n\n\n\n\n\n\n\nSpeak Screen: Swipe down with two fingers from the top of the screen to have the full screen read aloud.\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you want information on another tool, please reach out to elearning@twu.ca.",
     "crumbs": [
       "Text-to-Speech Support"
+    ]
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community Engagment",
+    "section": "",
+    "text": "Engage With Your Community\nCommunity is key to learning at TWU, even in online courses. Connecting with others enhances your experience, provides support, and fosters a sense of belonging.\nThe Learning Community (Discourse) is TWU Online’s discussion platform where you can:\nWays to Connect:\nTake the initiative to connect, learn, and grow—your engagement will enrich your academic journey and help build lasting relationships.",
+    "crumbs": [
+      "Community Engagment"
+    ]
+  },
+  {
+    "objectID": "community.html#engage-with-your-community",
+    "href": "community.html#engage-with-your-community",
+    "title": "Community Engagment",
+    "section": "",
+    "text": "Connect with fellow students, ask course-related questions, and share insights.\nParticipate in course, program, and university-wide discussions.\nEngage with Global Educational Facilitators for resources, study skills, and live support.\n\n\n\nOnline Discussions – Join course forums, seek advice, and collaborate.\nInstructor Interaction – Check Discourse for updates, ask questions, and get feedback.\nUniversity Events & Workshops – See information for upcoming virtual events, webinars, and interest groups.\nVirtual Study Groups – Form or join study groups using MS Teams.",
+    "crumbs": [
+      "Community Engagment"
+    ]
+  },
+  {
+    "objectID": "community.html#community-links",
+    "href": "community.html#community-links",
+    "title": "Community Engagment",
+    "section": "Community Links",
+    "text": "Community Links\nClick the link below to go to the Learning Community on Discourse.\nLearning Community",
+    "crumbs": [
+      "Community Engagment"
     ]
   }
 ]
