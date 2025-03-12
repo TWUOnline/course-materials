@@ -8,6 +8,7 @@ assignees: ''
 ---
 ### Quarto Converter
 
+- [ ] rename files to u1.docx <- affects asssets folder path
 - [ ] convert werd to .qmd
 
 ### GitHub
@@ -28,6 +29,7 @@ assignees: ''
 
 ### Zotero
 - [ ] load references into shared TWU-Online library in course folder
+- [ ] push references onto course-materials
 - [ ] embed citekeys in qmd files
 - [ ] check with SME for missing or ambiguous references
 - [ ] connect with Library contact for any missing or ambiguous references
