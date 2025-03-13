@@ -477,6 +477,11 @@ nav#doc-toc>ul>li a.nav-link {
 	font-weight: bold !important;
 }
 
+.quarto-content-container ol,
+.quarto-content-container ul {
+	margin-bottom: 1rem;
+}
+
 .quarto-content-container .figure-img {
 	margin-bottom: 0;
 }
