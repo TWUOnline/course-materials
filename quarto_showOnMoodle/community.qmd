@@ -25,4 +25,4 @@ Take the initiative to connect, learn, and grow—your engagement will enrich yo
 
 Click the button below to go to the Learning Community on Discourse.
 
-<a href="https://twu.discourse.group/auth/microsoft_office365" class="btn btn-primary"><i class="bi bi-chat-dots"></i>&nbsp;&nbsp; Learning Community</a>
+<a href="https://twu.discourse.group/auth/microsoft_office365" class="btn btn-primary"><i class="bi bi-chat-dots fa-regular fa-comment-dots"></i>&nbsp;&nbsp; Go to the Learning Community</a>
