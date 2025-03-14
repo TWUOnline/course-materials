@@ -2,7 +2,7 @@
 
 ![Picture of a multi-cultural group of university students who are all smiling and holding a hand-written sign that says 'We Are TWU!' The group is standing in front of several large, green trees.](assets/community/Leaning_Hub.jpg)
 
-## Engage With Your Community {.unnumbered}
+### Engage With Your Community {.unnumbered}
 
 Community is key to learning at TWU, including in online courses. Connecting with others enhances your learning experience, provides support, and fosters a sense of belonging.
 
@@ -21,7 +21,7 @@ The **Learning Community** on Discourse is our online conversation platform wher
 
 Take the initiative to connect, learn, and grow—your engagement will enrich your academic journey and help build lasting relationships.
 
-## Community Links
+### Community Links
 
 Click the button below to go to the Learning Community on Discourse.
 
