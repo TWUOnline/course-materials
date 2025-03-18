@@ -1,3 +1,7 @@
 .prev-next {
 	display: none;
 }
+
+img {
+	max-width: 100%;
+}
