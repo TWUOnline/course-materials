@@ -79,12 +79,12 @@
 /* TWU Course Hearder Styles */
 
 #title-block-header {
-    color: white;
-    background-image: url(header-assets/twu_bg.svg);
+    /* color: white; */
+    /* background-image: url(header-assets/twu_bg.svg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: var(--primary-color-dark);
+    background-color: var(--gray-color-lighter);
     padding-top: .75rem;
     margin-bottom: 1rem;
 }
@@ -99,11 +99,11 @@
 .quarto-title-banner .quarto-title h1.title {
     font-size: 22px;
     margin-bottom: 10px;
-    color: white;
+    color: var(--primary-color);
 }
 
 .quarto-title-banner {
-    color: white;
+    color: var(--primary-color);
 }
 
 .quarto-title-meta-contents {
@@ -433,4 +433,10 @@ table {
 
 .table>thead {
     border-top: 1px solid #b2bac1;
+}
+
+/* Hiding Top Nav */
+
+.twu-global-header .nav {
+    display: none !important;
 }
