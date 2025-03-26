@@ -84,9 +84,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: var(--gray-color-lighter);
+    background-color: white;
     padding-top: .75rem;
     margin-bottom: 1rem;
+    border-bottom: 1px solid var(--gray-color-lighter);
 }
 
 #title-block-header .quarto-title-banner {
