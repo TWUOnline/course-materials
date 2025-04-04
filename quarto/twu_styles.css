@@ -88,6 +88,7 @@
     padding-top: .75rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--gray-color-lighter);
+    display: none;
 }
 
 #title-block-header .quarto-title-banner {
