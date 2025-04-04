@@ -23,6 +23,7 @@
     background-color: var(--primary-color-dark);
     font-weight: 500;
     z-index: 1000;
+    display: none;
 }
 
 .twu-global-header header {
@@ -88,7 +89,6 @@
     padding-top: .75rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--gray-color-lighter);
-    display: none;
 }
 
 #title-block-header .quarto-title-banner {
