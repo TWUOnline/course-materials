@@ -49,14 +49,14 @@ const createGlobalHeader = () => {
   
   const logoLink = createElement('a', 'd-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none', { href: '/' });
   const logo = createElement('img', null, {
-    src: 'https://twuonline.github.io/course-materials/quarto/header-assets/twu_logo.svg',
-    width: '35',
+    src: 'https://twuonline.github.io/course-materials/quarto/header-assets/TWU_HorizontalLogo_Grey.png',
+    width: '300',
     title: 'Trinity Western University',
     alt: 'Trinity Western University Logo'
   });
   const label = createElement('label', 'twu-global-header-label', {}, '<strong>TWU</strong> Online');
   
-  logoLink.append(logo, label);
+  logoLink.append(logo);
   
   const nav = createElement('ul', 'nav');
   GLOBAL_LINKS.forEach((link) => {
