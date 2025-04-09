@@ -23,6 +23,7 @@
     background-color: var(--primary-color-dark);
     font-weight: 500;
     z-index: 1000;
+    padding-bottom: 2px;
 }
 
 .twu-global-header header {

@@ -50,7 +50,7 @@ const createGlobalHeader = () => {
   const logoLink = createElement('a', 'd-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none', { href: '/' });
   const logo = createElement('img', null, {
     src: 'https://twuonline.github.io/course-materials/quarto/header-assets/TWU_HorizontalLogo_Grey.png',
-    width: '300',
+    width: '180',
     title: 'Trinity Western University',
     alt: 'Trinity Western University Logo'
   });
