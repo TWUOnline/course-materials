@@ -318,7 +318,6 @@ ol>li>p {
 
 .course-content .label.modtype_label a:not(.btn):hover {
 	text-decoration: none;
-	color: var(--accent-color-dark);
 }
 
 .course-content .label.modtype_label a.action-button {
