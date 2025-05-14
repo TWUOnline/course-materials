@@ -938,4 +938,10 @@ nav#doc-toc {
     ol>li>p {
         margin-bottom: 0;
     }
+
+    /* APA Reference Indentation */
+
+    .references.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;   }
 }

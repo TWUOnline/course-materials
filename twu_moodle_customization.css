@@ -834,3 +834,8 @@ nav#doc-toc>ul>li a.nav-link {
 .quarto-content-container ol>li>p {
 	margin-bottom: 0;
 }
+
+.quarto-content-container .references.hanging-indent {
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
