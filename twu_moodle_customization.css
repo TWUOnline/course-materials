@@ -421,6 +421,11 @@ header#page-header .progress .progress-bar {
 	opacity: .9;
 }
 
+.format-onetopic ul.onetopic {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- This is TWU Quarto CSS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Variables */
 :root {
@@ -454,7 +459,7 @@ nav#doc-toc>ul>li a.nav-link {
 
 .quarto-content-container {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 780px;
 }
 
 .quarto-content-container h1,
