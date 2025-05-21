@@ -446,3 +446,9 @@ table {
 .twu-global-header .nav {
     display: none !important;
 }
+
+/* Removing extra line spacing for listed items */
+
+li>p {
+    margin: 0;
+}
