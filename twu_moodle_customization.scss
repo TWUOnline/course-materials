@@ -948,6 +948,16 @@ nav#doc-toc {
         margin-bottom: 0;
     }
 
+    ul.task-list li {
+        list-style-type: none;   
+
+        input[type="checkbox"] {
+            margin: 0px 0.8em 0px -2.5em;
+            top: 2px;
+            position: relative;       
+        }
+    }
+
     /* APA Reference Indentation */
 
     .references.hanging-indent {

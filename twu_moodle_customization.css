@@ -840,6 +840,16 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-bottom: 0;
 }
 
+.quarto-content-container ul.task-list li {
+	list-style-type: none;
+}
+
+.quarto-content-container ul.task-list li input[type="checkbox"] {
+	margin: 0px 0.8em 0px -2.5em;
+	top: 2px;
+	position: relative;
+}
+
 .quarto-content-container .references.hanging-indent {
 	margin-left: 1.5em;
 	text-indent: -1.5em;
