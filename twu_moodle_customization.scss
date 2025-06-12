@@ -962,5 +962,14 @@ nav#doc-toc {
 
     .references.hanging-indent {
         margin-left: 1.5em;
-        text-indent: -1.5em;   }
+        text-indent: -1.5em;   
+    }
+
+    .block_floatingbutton-floatingicons {
+        z-index: 1000;
+    }
+
+    .drawer-right.show .block_floatingbutton-floatingicons,
+    .show-drawer-right .block_floatingbutton-floatingicons {
+        right: calc(315px + 2rem);   }
 }
