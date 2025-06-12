@@ -854,12 +854,3 @@ nav#doc-toc>ul>li a.nav-link {
 	margin-left: 1.5em;
 	text-indent: -1.5em;
 }
-
-.quarto-content-container .block_floatingbutton-floatingicons {
-	z-index: 1000;
-}
-
-.quarto-content-container .drawer-right.show .block_floatingbutton-floatingicons,
-.quarto-content-container .show-drawer-right .block_floatingbutton-floatingicons {
-	right: calc(315px + 2rem);
-}
