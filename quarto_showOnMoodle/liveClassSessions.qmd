@@ -1,0 +1,48 @@
+## Live Class Sessions {.unnumbered}
+## What to Expect {.unnumbered}
+
+You're invited to join a weekly live class session - an essential part of your learning experience. These sessions create a space for connection, collaboration, and engagement. You’ll meet with your instructor and peers to explore and discuss key topics, including:
+
+-   Clear explanations of key concepts, with real-life examples
+
+-   Interactive discussions or small group activities
+
+-   Practical tips for assignments
+
+-   Live Q&A
+
+### How to Prepare {.unnumbered}
+
+-   **Bring your questions:** Review the materials in advance and come prepared to actively participate. Bring any questions or ideas you’d like to discuss based on the assigned topics.
+
+-   **Be present:** You're encouraged to turn your camera on - it helps build a stronger sense of connection and community. Please note that sessions will be recorded and shared with your peers on Moodle.
+
+-   **Be engaged:** Listen actively and interact thoughtfully with your peers. Use the chat and reaction features to stay involved in the discussions.
+
+-   **Communicate with respect:** Be open to differing viewpoints and contribute to a respectful, inclusive learning environment for everyone.
+
+<!-- ### Schedule & Access Link
+
+-   Live Class Sessions will be on \[insert days\] at \[insert time\].
+
+-   To join the Live Class Session, click this link. \[Insert MS Teams link\]
+
+### Missed a Session?
+
+If you’re unable to attend or miss a session, you can view the recorded session below.
+
+-   Week 1: \[Insert URL\]
+
+-   Week 2: \[Insert URL\]
+
+Need Help with Access?
+
+If you’re having trouble with accessing, visit [TWU’s Service Hub Knowledge Base](https://servicehub.twu.ca/TDClient/1904/Portal/KB/?CategoryID=17821&SIDs=11353).\
+\
+**Additional Notes About Live Sessions**
+
+**Chat Transcripts:** Chats are automatically saved and can be reviewed afterward by opening the Chat panel in MS Teams and selecting the meeting title.
+
+**Privacy Considerations:** Instructors may turn off chat or pause recordings during sensitive discussions to respect privacy.
+
+**Recording Exceptions:** Most sessions are recorded, but some activities (e.g., breakout rooms, whiteboards, polls, collaborative docs) may not be captured. Instructors will let you know when recordings are paused or unavailable.-->
