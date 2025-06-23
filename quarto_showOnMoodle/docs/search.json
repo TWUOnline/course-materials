@@ -52,11 +52,21 @@
   {
     "objectID": "liveClassSessions.html",
     "href": "liveClassSessions.html",
-    "title": "Live Class Sessions",
+    "title": "1  Live Class Sessions {.unnumbered} ",
+    "section": "",
+    "text": "Live Class Sessions",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Live Class Sessions {.unnumbered} <!-- doesn't show in the first line--></span>"
+    ]
+  },
+  {
+    "objectID": "liveClassSessions.html#live-class-sessions",
+    "href": "liveClassSessions.html#live-class-sessions",
+    "title": "1  Live Class Sessions {.unnumbered} ",
     "section": "",
     "text": "What to Expect\nYou’re invited to join a weekly live class session - an essential part of your learning experience. These sessions create a space for connection, collaboration, and engagement. You’ll meet with your instructor and peers to explore and discuss key topics, including:\n\nClear explanations of key concepts, with real-life examples\nInteractive discussions or small group activities\nPractical tips for assignments\nLive Q&A\n\n\n\nHow to Prepare\n\nBring your questions: Review the materials in advance and come prepared to actively participate. Bring any questions or ideas you’d like to discuss based on the assigned topics.\nBe present: You’re encouraged to turn your camera on - it helps build a stronger sense of connection and community. Please note that sessions will be recorded and shared with your peers on Moodle.\nBe engaged: Listen actively and interact thoughtfully with your peers. Use the chat and reaction features to stay involved in the discussions.\nCommunicate with respect: Be open to differing viewpoints and contribute to a respectful, inclusive learning environment for everyone.",
     "crumbs": [
-      "Live Class Sessions"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Live Class Sessions {.unnumbered} <!-- doesn't show in the first line--></span>"
     ]
   }
 ]
