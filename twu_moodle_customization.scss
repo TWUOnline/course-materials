@@ -968,10 +968,13 @@ nav#doc-toc {
 
     /* Accordion/Details in Moodle */
 
-    details>summary~div {
-        margin: .5rem 0;
-        padding: 0.5rem 0;
-        border-top: 1px dotted #bbb;
-        border-bottom: 1px dotted #bbb;   
+    details {
+        margin-bottom: .75rem;
+
+        >summary~div {
+                margin: .5rem 0;
+                padding: 0.5rem 0;
+                border-top: 1px dotted #bbb;
+                border-bottom: 1px dotted #bbb;   }
     }
 }

@@ -856,6 +856,10 @@ nav#doc-toc>ul>li a.nav-link {
 	text-indent: -1.5em;
 }
 
+.quarto-content-container details {
+	margin-bottom: .75rem;
+}
+
 .quarto-content-container details>summary~div {
 	margin: .5rem 0;
 	padding: 0.5rem 0;
