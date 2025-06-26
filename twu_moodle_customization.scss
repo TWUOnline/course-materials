@@ -965,4 +965,13 @@ nav#doc-toc {
         margin-left: 1.5em;
         text-indent: -1.5em;   
     }
+
+    /* Accordion/Details in Moodle */
+
+    details>summary~div {
+        margin: .5rem 0;
+        padding: 0.5rem 0;
+        border-top: 1px dotted #bbb;
+        border-bottom: 1px dotted #bbb;   
+    }
 }
