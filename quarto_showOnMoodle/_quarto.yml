@@ -24,7 +24,7 @@ book:
 #    - u6.qmd
     - textToSpeech.qmd
     -  community.qmd
-#    - assignment1.qmd
+    - liveClassSessions.qmd
 #    - assignment2.qmd
 #    - assignment3.qmd
 #    - course_assessment.qmd
