@@ -1,0 +1,395 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+/* Variables */
+
+:root {
+    --accent-color: #2375DA;
+    --accent-color-gold: #BD9B60;
+    --primary-color: #004684;
+    --primary-color-dark: #002856;
+    --gray-color-lighter: #EFEEEB;
+    --gray-color-light: #D9D9D9;
+    --gray-color: #E3E1D8;
+}
+
+/* TWU Global Header Styles */
+
+.twu-global-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--primary-color-dark);
+    font-weight: 500;
+    z-index: 1000;
+}
+
+.twu-global-header header {
+    border-bottom: 2px solid #526f90;
+}
+
+.twu-global-header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+}
+
+.twu-global-header ul li {
+    padding: 0 0.5rem;
+    border-right: 1px solid #2b4664;
+}
+
+.twu-global-header ul li:last-child {
+    border-right: none;
+}
+
+.twu-global-header ul a {
+    margin: 0;
+    padding: 0;
+    color: #cfcdc9;
+    font-size: 13px;
+    line-height: 2.75;
+    text-decoration: none;
+}
+
+.twu-global-header ul a:hover {
+    color: #fff;
+}
+
+.twu-global-header-label {
+    font-size: 16px;
+    font-family: 'open sans';
+    font-weight: normal;
+    color: var(--gray-color-light);
+    padding-left: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+    top: 1px;
+}
+
+.twu-global-nav {
+    float: right;
+}
+
+/* TWU Course Hearder Styles */
+
+#title-block-header {
+    color: white;
+    background-image: url(header-assets/twu_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--primary-color-dark);
+    padding-top: .75rem;
+    margin-bottom: 1rem;
+}
+
+#title-block-header .quarto-title-banner {
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.quarto-title-banner .quarto-title h1.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.quarto-title-banner {
+    color: white;
+}
+
+.quarto-title-meta-contents {
+    font-size: 14px;
+}
+
+#title-block-header {
+    margin-block-end: 0;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+    margin-top: 0;
+    font-size: 10px;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Sidebar - Main (Left) Navigation */
+
+.sidebar-item {
+    margin-top: 0;
+}
+
+.sidebar-navigation .sidebar-item-text {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: .85rem;
+    margin-top: 0;
+    background: linear-gradient(to right, var(--gray-color-lighter) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+}
+
+.sidebar-navigation .sidebar-item-text:hover {
+    background-position: left bottom;
+}
+
+.sidebar-item .chapter-number {
+    font-weight: bold;
+}
+
+div.sidebar-item-container .active {
+    font-weight: bold;
+    color: var(--accent-color);
+    background: var(--gray-color-lighter);
+}
+
+div.sidebar-item-container .active .chapter-number {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+div.sidebar-item-container:hover,
+div.sidebar-item-container:focus {
+    color: inherit;
+}
+
+.quarto-secondary-nav .quarto-btn-toggle {
+    color: var(--accent-color);
+}
+
+.quarto-secondary-nav .quarto-btn-toggle:hover {
+    background-color: var(--accent-color);
+    color: white;       
+}
+
+.quarto-secondary-nav button.quarto-btn-toggle {
+    margin-right: 5px;
+}
+
+.sidebar nav[role=doc-toc]>h2,
+.sidebar nav[role=doc-toc]>.h2 {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a:hover,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a:hover,
+.nav-link:hover .header-section-number,
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    color: var(--accent-color) !important;
+}
+
+/* Navigation Button Styles*/
+
+.nav-page a {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.nav-page a:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.nav-page .bi {
+    font-size: 1.5rem;
+}
+
+.nav-page.nav-page-previous {
+    margin-right: 5px;
+}
+
+.nav-page.nav-page-next {
+    margin-left: 5px;
+}
+
+/* Content Styles*/
+
+h1,
+.h1 {
+    margin-top: unset;
+}
+
+/* Callout Styles*/
+
+/* div.callout-warning.callout {
+    border-left-color: #FFC701;
+}
+
+div.callout-tip:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_activity.svg);
+    height: 1.1rem;
+    width: 1rem;
+    background-size: 1rem 1.1rem;
+}
+
+div.callout-note:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_assessment.svg);
+}
+
+div.callout-warning:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_checking_learning.svg);
+}
+
+div.callout-important:not(.callout-titled) .callout-icon::before {
+    background-image: url(assets/course-intro/icon_note.svg);
+} */
+
+/* Custom Callout Styles */
+
+.course-activity {
+    margin: 1em 0;
+    border: 1px solid var(--primary-color);
+    border-radius: .25rem;
+}
+
+.course-activity-header {
+    margin-left: 0em;
+    padding: 4px 1rem;
+    background-color: var(--primary-color);
+}
+
+.course-activity-header p {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+/* .course-activity-header p:before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    background-image: url(assets/course-intro/icon_activity_video.png);
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+} */
+
+.course-activity-body {
+    padding: 1rem 1rem 0 1rem;
+    font-size: .9rem;
+}
+
+.callout.callout-style-default .callout-body, .callout.callout-style-simple .callout-collapse .callout-body {
+    font-size: 1rem;
+}
+
+.learning-activity-body table,
+.learning-activity-body table.table {
+    margin-top: 0;
+}
+
+/* Custom List Styles */
+
+/* .activity-checklist li {
+    list-style-type: none;
+    margin-left: 6px;
+    margin-bottom: 2px;
+}
+
+.activity-checklist li:before {
+    content: "";
+    margin-right: 14px;
+    margin-left: -22px;
+    height: 12px;
+    width: 8px;
+    border-bottom: 3px solid #BD9B60;
+    border-right: 3px solid #BD9B60;
+    transform: rotate(45deg);
+    display: inline-block;
+} */
+
+/* Blockquote Styles */
+
+.blockquote {
+    font-size: .9em;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    color: unset;
+    border-left: .25rem solid var(--gray-color);
+}
+
+.course-activity .note blockquote {
+    padding: .25rem .625rem;
+    border-left: .25rem solid var(--accent-color);
+}
+
+/* Media Query */
+
+@media(max-width: 799px) {
+    .twu-global-header .nav {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #title-block-header .quarto-title-banner {
+        margin-bottom: 0;
+        padding-bottom: .5em;
+    }
+}
+
+
+/* Improving navigation on small screens */
+@media (max-width: 991.98px) {
+    .d-flex{
+        padding:.5rem;
+    }
+    .sidebar.sidebar-navigation > *{
+        padding-top:.2rem;
+    }
+    .menu-text {
+        display:flex;
+        }
+    .menu-text span{
+        white-space: wrap;
+        }
+    .menu-text .chapter-number{
+        padding-right:.5rem;
+        }
+
+}
+
+/* Add extra space after emphasized text */
+em {
+    padding-right: .1rem;
+}
+
+/*----------Responsive Video Embed------------------*/
+.video-container {
+    position: relative; 
+    padding-bottom: 56.25%;  
+    height: 0; 
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+  
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+}

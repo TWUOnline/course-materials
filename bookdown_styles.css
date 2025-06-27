@@ -1,0 +1,253 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* svg images should be 24x24 pixels */
+/* icons from remixicon.com */
+
+/* Styling for all custom environments: */
+div.bonus, div.reflect, div.assessment, div.progress, div.video, div.caution, div.feedback, div.blank{
+  padding: 1em;
+  margin: 0.5em;
+  position:relative;
+  border-radius: 5px;
+  color: black;
+}
+
+div.bonus:before,
+div.reflect:before,
+div.assessment:before,
+div.progress:before,
+div.video:before,
+div.caution:before,
+div.feedback:before
+div.blank:before{
+    left:0.5em;
+    position:absolute;
+    top:0.1em;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 1.5em;
+}
+
+
+/* Style hyperlinks */
+.book .book-body .page-wrapper .page-inner .normal div.bonus a:link,
+.book .book-body .page-wrapper .page-inner .normal div.reflect a:link,
+.book .book-body .page-wrapper .page-inner .normal div.assessment a:link,
+.book .book-body .page-wrapper .page-inner .normal div.progress a:link,
+.book .book-body .page-wrapper .page-inner .normal div.video a:link,
+.book .book-body .page-wrapper .page-inner .normal div.caution a:link,
+.book .book-body .page-wrapper .page-inner .normal div.feedback a:link
+.book .book-body .page-wrapper .page-inner .normal div.blank a:link{
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+
+
+/* Styling unique to each environment: */
+div.bonus{background: #FDF1D4;}
+
+div.reflect{background: #CDDBC7;}
+
+div.assessment{background: #E3F2F8;}
+
+div.progress{background: #C2BBC9;}
+
+div.video{background: #f9e0b4;}
+
+div.caution{background: #FDF1D4;}
+
+div.feedback{background: #FDF1D4;}
+
+div.blank{background: #ffffff;}
+
+.blackbox {
+  padding: 1em;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.center {
+  text-align: center;
+}
+
+/* Special Styling */
+h2 {
+  border-bottom: 3px solid;  
+}
+
+.blockhead {
+  font-size: 1.2em;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.prote {
+  font-size: 124%;
+  color: yellow;
+  background-color: red;
+}
+
+.carbottom {
+  margin-bottom: 1em;
+
+}
+
+.book .book-body .page-wrapper .page-inner section.normal details > p, .book .book-body .page-wrapper .page-inner section.normal details > .book .book-body .page-wrapper .page-inner section.normal details > ol, .book .book-body .page-wrapper .page-inner section.normal details > ul { 
+  margin-top: .85em;
+}
+
+/*----------Index------------------*/
+
+#fig\\:unnamed-chunk-1 img {
+  max-width:400px;
+}
+
+#fig\\:unnamed-chunk-2 img {
+  max-width:80px;
+}
+
+/*----------Table------------------*/
+
+/*
+.book .book-body .page-wrapper .page-inner section.normal table {
+  table-layout: fixed;
+}
+*/
+
+.book .book-body .page-wrapper .page-inner section.normal table td {
+  border-left: none;
+  border-right: 1px solid #ccc;
+  vertical-align: top;
+  padding: 6px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table td:last-child {
+  border-left: none;
+  border-right: none;
+}
+/*----------Responsive Video Embed------------------*/
+.video-container {
+  position: relative; 
+  padding-bottom: 56.25%;  
+  height: 0; 
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+/*---------------------Badge----------------------*/
+
+.badge-yellow {
+  color: #101010;
+  background-color: #fde725;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-top: -0.4em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
+}
+
+.badge-green {
+  color: #101010;
+  background-color: #5ec962;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-top: -0.4em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
+}
+
+.badge-dark-green {
+  color: #fff;
+  background-color: #21918c;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-top: -0.4em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
+}
+
+.badge-blue {
+  color: #fff;
+  background-color: #3b528b;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-top: -0.4em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
+}
+
+.badge-purple {
+  color: #fff;
+  background-color: #440154;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-top: -0.4em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
+}
+
+/*---------------------Hanging Indent----------------------*/
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
