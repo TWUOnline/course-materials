@@ -437,6 +437,12 @@ header#page-header .progress .progress-bar {
 	--gray-color-lighter: #efeeeb;
 	--gray-color-light: #d9d9d9;
 	--gray-color: #e3e1d8;
+	--incorrect: #983E82;
+	--incorrect_alpha: #edaddd;
+	--correct: #59935B;
+	--correct_alpha: #c0edc2;
+	--highlight: #467AAC;
+	--highlight_alpha: #cce0ed;
 }
 
 /* Quarto TOC Styles */
@@ -868,6 +874,104 @@ nav#doc-toc>ul>li a.nav-link {
 }
 
 /* Webex Quiz Styling */
+
+.quarto-content-container .webex-box {
+	border: 2px solid var(--highlight);
+	padding: 0.5em 0.25em;
+	margin: 1em 0;
+	border-radius: .25em;
+	background-color: rgba(127, 127, 127, 0.05);
+}
+
+.quarto-content-container .webex-total_correct {
+	margin-left: 1em;
+}
+
+.quarto-content-container .unchecked .webex-total_correct {
+	display: none;
+}
+
+.quarto-content-container .unchecked .webex-incorrect,
+.quarto-content-container .unchecked .webex-correct {
+	border: 2px dotted grey !important;
+	background-color: white !important;
+}
+
+/* styles for webex-solveme */
+.quarto-content-container .webex-select,
+.quarto-content-container input.webex-solveme,
+.quarto-content-container .unchecked .webex-radiogroup label.webex-incorrect,
+.quarto-content-container .unchecked .webex-radiogroup label.webex-correct {
+	border: 2px dotted grey;
+	background-color: white;
+	border-radius: 0.25em;
+}
+
+.quarto-content-container .webex-incorrect,
+.quarto-content-container input.webex-solveme.webex-incorrect,
+.quarto-content-container .webex-radiogroup label.webex-incorrect {
+	border: 2px dotted var(--incorrect);
+	background-color: var(--incorrect_alpha);
+	color: black;
+	border-radius: 0.25em;
+}
+
+.quarto-content-container .webex-correct,
+.quarto-content-container input.webex-solveme.webex-correct,
+.quarto-content-container .webex-radiogroup label.webex-correct {
+	border: 2px solid var(--highlight);
+	background-color: var(--highlight_alpha);
+	color: black;
+	border-radius: 0.25em;
+}
+
+.quarto-content-container .unchecked .webex-incorrect span::before,
+.quarto-content-container .unchecked .webex-incorrect+.webex-icon::after,
+.quarto-content-container .unchecked .webex-correct span::before,
+.quarto-content-container .unchecked .webex-correct+.webex-icon::after {
+	content: "  ";
+}
+
+.quarto-content-container .webex-incorrect span::before,
+.quarto-content-container .webex-incorrect+.webex-icon::after {
+	content: "";
+	/* \274C   */
+}
+
+.quarto-content-container .webex-correct span::before,
+.quarto-content-container .webex-correct+.webex-icon::after {
+	content: "";
+	/* \2705   */
+}
+
+
+/* styles for hidden solutions */
+.quarto-content-container .webex-solution {
+	height: 2.5em;
+	overflow-y: hidden;
+	padding: 0.5em;
+	margin-bottom: 10px;
+}
+
+.quarto-content-container .webex-solution.open {
+	height: auto;
+	border: 2px solid var(--highlight);
+	border-radius: 5px;
+}
+
+.quarto-content-container .webex-solution button,
+.quarto-content-container .webex-check-button {
+	height: 2em;
+	margin-bottom: 0.5em;
+	border-radius: 0.5em;
+	background-color: var(--highlight);
+	color: white;
+	padding: 0 0.5em;
+}
+
+.quarto-content-container .webex-solution pre.sourceCode {
+	border-color: var(--correct);
+}
 
 .quarto-content-container .webex-radiogroup {
 	margin: 1em 0;
