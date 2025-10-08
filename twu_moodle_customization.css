@@ -866,3 +866,26 @@ nav#doc-toc>ul>li a.nav-link {
 	border-top: 1px dotted #bbb;
 	border-bottom: 1px dotted #bbb;
 }
+
+/* Webex Quiz Styling */
+
+.quarto-content-container .webex-radiogroup {
+	margin: 1em 0;
+}
+
+.quarto-content-container .webex-radiogroup label {
+	margin-left: 2em;
+	text-indent: -1em;
+	padding-left: 0.5em;
+	font-weight: 400;
+	display: block;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: inherit;
+	border-radius: 0.25em;
+}
+
+.quarto-content-container .webex-radiogroup label input {
+	position: relative;
+	left: -1em;
+}
+
