@@ -557,6 +557,10 @@ nav#doc-toc {
     }   
 }
 
+#page.drawers .activity-header {
+    min-height: 10px;
+}
+
 .quarto-content-container {
 
     margin: 0 auto;
