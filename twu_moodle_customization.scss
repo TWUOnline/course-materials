@@ -557,8 +557,8 @@ nav#doc-toc {
     }   
 }
 
-#page.drawers .activity-header {
-    min-height: 10px;
+.main[role="main"] .tertiary-navigation {
+    padding-top: 50px;
 }
 
 .quarto-content-container {
