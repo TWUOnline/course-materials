@@ -561,6 +561,16 @@ div[role="main"] .tertiary-navigation {
     padding-top: 50px;
 }
 
+.case-study.callout.callout-style-simple.callout-tip.no-icon {
+    border: 1px solid #6dba53;
+    background-color: #ecf2ec;
+    margin-top: 0;
+
+    &.indented {
+        margin-left: 34px;
+    }
+}
+
 .quarto-content-container {
 
     margin: 0 auto;
