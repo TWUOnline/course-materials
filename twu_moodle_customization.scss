@@ -566,6 +566,13 @@ div[role="main"] .tertiary-navigation {
     background-color: #ecf2ec;
     margin-top: 0;
 
+    .callout-title-container {
+        font-size: 1.25rem;
+        font-weight: normal;
+        opacity: 0.9;
+        margin-bottom: 1rem;
+    }
+
     &.indented {
         margin-left: 34px;
     }

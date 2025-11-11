@@ -474,6 +474,13 @@ div[role="main"] .tertiary-navigation {
 	margin-top: 0;
 }
 
+.case-study.callout.callout-style-simple.callout-tip.no-icon .callout-title-container {
+	font-size: 1.25rem;
+	font-weight: normal;
+	opacity: 0.9;
+	margin-bottom: 1rem;
+}
+
 .case-study.callout.callout-style-simple.callout-tip.no-icon.indented {
 	margin-left: 34px;
 }
