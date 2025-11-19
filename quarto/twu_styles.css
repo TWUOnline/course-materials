@@ -353,6 +353,10 @@ caption {
     line-height: 1.3;
 }
 
+#gallery details p {
+    max-width: 500px;
+}
+
 /* Figure Styles */
 
 .quarto-figure-center table {
