@@ -314,6 +314,7 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 /* Blockquote Styles */
 
 .blockquote {
+    font-size: inherit;
     padding-left: 1rem;
     padding-right: 1.5rem;
     color: unset;
