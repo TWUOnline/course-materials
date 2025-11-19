@@ -322,7 +322,7 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 }
 
 .blockquote p {
-    font-size: inherit;
+    font-size: 1rem;
 }
 
 .course-activity .note blockquote {
