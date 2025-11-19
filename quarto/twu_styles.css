@@ -314,12 +314,15 @@ h3[data-anchor-id="learning-activities"]+.callout.callout-style-simple.callout-n
 /* Blockquote Styles */
 
 .blockquote {
-    font-size: inherit;
     padding-left: 1rem;
     padding-right: 1.5rem;
     color: unset;
     border-left: .25rem solid var(--accent-color-gold);
     background-color: rgba(233, 236, 239, .65);
+}
+
+.blockquote p {
+    font-size: inherit;
 }
 
 .course-activity .note blockquote {
