@@ -346,7 +346,8 @@ caption {
 }
 
 .caption p,
-.text-source {
+.text-source,
+#gallery details p {
     font-size: .9rem;
     color: #6d7a86;
     line-height: 1.3;
