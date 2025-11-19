@@ -210,14 +210,9 @@ ol>li>p {
 }
 
 .activity-item {
-    position: relative;
 
-    .activity-completion {
-        grid-area: unset;
-        justify-self: start;
-        position: absolute;
-        bottom: 8px;
-        right: 12px;
+    .activity-actions {
+        margin-bottom: 5px;
     }
 }
 

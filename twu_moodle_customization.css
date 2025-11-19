@@ -185,16 +185,8 @@ ol>li>p {
 	background-color: var(--accent-color-dark);
 }
 
-.activity-item .activity-grid {
-	position: relative;
-}
-
 .activity-item .activity-completion {
-	grid-area: unset;
-	justify-self: unset;
-	position: absolute;
-	bottom: 8px;
-	right: 12px;
+	margin-bottom: 5px;
 }
 
 .drawerheader {
