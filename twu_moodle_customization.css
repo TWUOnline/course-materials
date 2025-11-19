@@ -185,6 +185,18 @@ ol>li>p {
 	background-color: var(--accent-color-dark);
 }
 
+.activity-item .activity-grid {
+	position: relative;
+}
+
+.activity-item .activity-completion {
+	grid-area: unset;
+	justify-self: unset;
+	position: absolute;
+	bottom: 8px;
+	right: 12px;
+}
+
 .drawerheader {
 	height: 50px;
 }
@@ -323,6 +335,8 @@ ol>li>p {
 
 .course-content .label.modtype_label a.action-button {
 	color: #fff;
+	border-radius: 30px;
+	padding: 7px 15px;
 }
 
 .activity-navigation #prev-activity-link,

@@ -209,6 +209,18 @@ ol>li>p {
     padding: 0;
 }
 
+.activity-item {
+    position: relative;
+
+    .activity-completion {
+        grid-area: unset;
+        justify-self: start;
+        position: absolute;
+        bottom: 8px;
+        right: 12px;
+    }
+}
+
 .activity-item:not(.activityinline) {
     border: 0;
     padding: 0;
@@ -386,6 +398,8 @@ ol>li>p {
 
         a.action-button {
             color: #fff;
+            border-radius: 30px;
+            padding: 7px 15px;
         }
     }
 }
