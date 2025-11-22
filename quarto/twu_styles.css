@@ -350,13 +350,15 @@ caption {
 
 .caption p,
 .text-source,
-#gallery details p {
+#gallery details p,
+#gallery-1 details p {
     font-size: .9rem;
     color: #6d7a86;
     line-height: 1.3;
 }
 
-#gallery details p {
+#gallery details p,
+#gallery-1 details p {
     max-width: 500px;
 }
 
