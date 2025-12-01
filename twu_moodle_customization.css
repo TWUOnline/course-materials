@@ -1113,48 +1113,7 @@ div[role="main"] .tertiary-navigation {
   left: -1em;
 }
 
-/* container css  */
-
-/* outer centered container */
-.quiz-container {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-/* one question at a time */
-.webex-question {
-  display: none;
-}
-
-.webex-question.active {
-  display: block;
-}
-
-/* navigation buttons below the question */
-.webex-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-/* match your existing button style */
-.webex-nav button {
-  height: 2em;
-  border-radius: 0.5em;
-  background-color: var(--highlight);
-  color: white;
-  padding: 0 0.75em;
-  border: none;
-  cursor: pointer;
-}
-
-.webex-nav button:disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-
-/* tables */
+/* Table CSS */
 
 /* Domain Score Table Style */
 .webex-domain-table {
