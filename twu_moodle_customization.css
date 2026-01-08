@@ -1113,6 +1113,25 @@ div[role="main"] .tertiary-navigation {
   left: -1em;
 }
 
+.quarto-content-container .quarto-layout-panel {
+  margin-bottom: 1em;
+}
+
+.quarto-content-container .quarto-layout-panel .quarto-layout-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.quarto-content-container .quarto-layout-panel .quarto-layout-row .quarto-layout-cell {
+  position: relative;
+  margin-right: 20px;
+}
+
+.quarto-content-container .quarto-layout-panel .quarto-layout-row .quarto-layout-cell.quarto-layout-cell:last-child {
+  margin-right: 0;
+}
+
 /* Table CSS */
 
 /* Domain Score Table Style */

@@ -1146,4 +1146,23 @@ div[role="main"] .tertiary-navigation {
                     }
             }
     }
+
+    .quarto-layout-panel {
+        margin-bottom: 1em;
+
+        .quarto-layout-row {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+            .quarto-layout-cell {
+                position: relative;
+                margin-right: 20px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }
