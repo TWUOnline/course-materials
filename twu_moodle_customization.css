@@ -1132,6 +1132,10 @@ div[role="main"] .tertiary-navigation {
   margin-right: 0;
 }
 
+.quarto-content-container .figure {
+  display: block;
+}
+
 /* Table CSS */
 
 /* Domain Score Table Style */
