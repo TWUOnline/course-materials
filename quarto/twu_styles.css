@@ -151,6 +151,11 @@
     background-position: left bottom;
 }
 
+.sidebar-navigation .sidebar-item-text.sidebar-link.text-start {
+    font-weight: bold;
+    background: none;
+}
+
 .sidebar-item .chapter-number {
     font-weight: bold;
 }
