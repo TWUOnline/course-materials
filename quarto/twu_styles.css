@@ -132,6 +132,11 @@
 }
 /* Sidebar - Main (Left) Navigation */
 
+.sidebar-section {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
 .sidebar-item {
     margin-top: 0;
 }
@@ -154,6 +159,7 @@
 .sidebar-navigation .sidebar-item-text.sidebar-link.text-start {
     font-weight: bold;
     background: none;
+    padding-left: 0;
 }
 
 .sidebar-item .chapter-number {
