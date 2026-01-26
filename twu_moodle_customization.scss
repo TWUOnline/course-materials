@@ -628,6 +628,11 @@ div[role="main"] .tertiary-navigation {
 
     .quarto-figure-center table {
         text-align: left;
+
+        >figure>p,
+        >figure>div {
+                text-align: center;
+            }
     }
 
     .quarto-figure-left>figure>p,

@@ -542,6 +542,11 @@ div[role="main"] .tertiary-navigation {
   text-align: left;
 }
 
+.quarto-content-container .quarto-figure-center>figure>p,
+.quarto-content-container .quarto-figure-center>figure>div {
+  text-align: center;
+}
+
 .quarto-content-container .quarto-figure-left > figure > p,
 .quarto-content-container .quarto-figure-left > figure > div {
   border: 1px solid #eee;
