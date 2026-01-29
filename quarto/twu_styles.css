@@ -516,11 +516,29 @@ li>p {
     .quarto-secondary-nav .quarto-btn-toggle,
     .quarto-secondary-nav .btn {
         color: #fff;
+        position: relative;
+    }
+
+    .quarto-secondary-nav button.quarto-btn-toggle {
+        margin-right: 0;
+        margin-top: 10p;
+        top: 5px;
+    }
+
+    .quarto-secondary-nav button.quarto-search-button {
+        width: 44px;
+        top: 5px;
+        right: -10px;
+    }
+
+    .quarto-secondary-nav button.quarto-search-button i.bi.bi-search {
+        position: relative;
+        right: 21px;
     }
 
     .twu-global-header a {
         position: absolute;
-        top: 0;
+        top: 2px;
         z-index: 10000;
     }
 }
