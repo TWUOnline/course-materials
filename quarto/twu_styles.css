@@ -26,10 +26,6 @@
     padding-bottom: 2px;
 }
 
-.twu-global-header header {
-    border-bottom: 2px solid #526f90;
-}
-
 .twu-global-header ul {
     display: flex;
     justify-content: flex-end;
@@ -502,4 +498,24 @@ li>p {
 
 .case-study.callout.callout-style-simple.callout-tip.no-icon.indented {
     margin-left: 34px;
+}
+
+/* TWU Branding - Mobile header */
+
+@media (max-width: 991.98px) {
+    .quarto-banner nav.quarto-secondary-nav {
+        background-color: #002856;
+        color: #fff;
+    }
+
+    .quarto-secondary-nav .quarto-btn-toggle,
+    .quarto-secondary-nav .btn {
+        color: #fff;
+    }
+
+    .twu-global-header a {
+        position: absolute;
+        top: 0;
+        z-index: 10000;
+    }
 }
