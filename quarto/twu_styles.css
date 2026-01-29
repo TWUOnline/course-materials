@@ -541,4 +541,8 @@ li>p {
         top: 2px;
         z-index: 10000;
     }
+
+    .quarto-secondary-nav nav.quarto-page-breadcrumbs {
+        display: none;
+    }
 }
