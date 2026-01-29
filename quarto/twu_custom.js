@@ -1,14 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // 1. Get unit number from filename (u3.html → 3)
   const file = window.location.pathname.split("/").pop();
   const match = file.match(/u(\d+)/i);
   if (!match) return;
 
   const unitNumber = match[1];
 
-
-  // 2. Update all data-number attributes
+  // 1. Update data-number attributes
   document.querySelectorAll("[data-number]").forEach(el => {
     const value = el.dataset.number;
     if (!value) return;
@@ -16,13 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
     el.dataset.number = value.replace(/^\d+/, unitNumber);
   });
 
-
-  // 3. Sync ALL visible numbers (headings + TOC)
-  document.querySelectorAll(".header-section-number").forEach(span => {
+  // 2. Update visible heading numbers (uses data-number)
+  document.querySelectorAll("[data-number] .header-section-number").forEach(span => {
     const parent = span.closest("[data-number]");
-    if (!parent) return;
-
     span.textContent = parent.dataset.number;
+  });
+
+  // 3. Update TOC numbers (no data-number available)
+  document.querySelectorAll("#TOC .header-section-number").forEach(span => {
+    const current = span.textContent.trim();
+    span.textContent = current.replace(/^\d+/, unitNumber);
   });
 
 });
