@@ -26,6 +26,10 @@
     padding-bottom: 2px;
 }
 
+.twu-global-header header {
+    border-bottom: 2px solid #526f90;
+}
+
 .twu-global-header ul {
     display: flex;
     justify-content: flex-end;
@@ -506,6 +510,7 @@ li>p {
     .quarto-banner nav.quarto-secondary-nav {
         background-color: #002856;
         color: #fff;
+        border:0;
     }
 
     .quarto-secondary-nav .quarto-btn-toggle,
