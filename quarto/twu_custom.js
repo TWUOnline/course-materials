@@ -1,21 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Get filename (e.g., u3.html)
-  const file = window.location.pathname.split("/").pop();
+  const spans = document.querySelectorAll(".header-section-number");
 
-  // Extract unit number
-  const match = file.match(/u(\d+)/i);
-  if (!match) return;
 
-  const unitNumber = match[1]; // "3"
+  spans.forEach(span => {
+    const parent = span.closest("[data-number]");
+    if (!parent) return;
 
-  document.querySelectorAll("[data-number]").forEach(el => {
-    const value = el.dataset.number; // e.g., "1.1"
 
-  if (!value) return;
+    const value = parent.dataset.number;
 
-  // Replace ONLY the first number segment
-  const updated = value.replace(/^\d+/, unitNumber);
 
-  el.dataset.number = updated;
+    // remove existing content completely
+    span.replaceChildren();
+
+
+    // insert fresh value
+    span.append(value);
   });
 });
