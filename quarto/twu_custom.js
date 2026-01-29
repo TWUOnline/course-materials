@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   const file = window.location.pathname.split("/").pop();
-  const match = file.match(/u(\d+)/i);
+
+  // UPDATED — supports u1, u-1, u_1, unit1, unit-1, unit_1
+  const match = file.match(/^(?:u|unit)[-_]?(\d+)/i);
   if (!match) return;
 
   const unitNumber = match[1];
