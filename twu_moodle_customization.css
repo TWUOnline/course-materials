@@ -106,7 +106,9 @@ ol > li > p {
 }
 
 .navbar.navbar-dark.bg-primary .nav-link:hover,
-.navbar.navbar-dark.bg-primary .nav-link:focus {
+.navbar.navbar-dark.bg-primary .nav-link:focus,
+.navbar.navbar-dark.bg-primary .nav-link:hover .icon,
+.navbar.navbar-dark.bg-primary .nav-link:focus .icon {
   color: #abd3ff !important;
 }
 
