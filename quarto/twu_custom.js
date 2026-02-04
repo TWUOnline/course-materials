@@ -29,3 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
+const carousel = document.querySelector('#carouselExampleIndicators');
+const bsCarousel = new bootstrap.Carousel(carousel);
+
+document.querySelector('.carousel-control-next')
+  .addEventListener('click', () => bsCarousel.next());
+
+document.querySelector('.carousel-control-prev')
+  .addEventListener('click', () => bsCarousel.prev());
