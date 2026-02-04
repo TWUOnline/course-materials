@@ -510,6 +510,11 @@ li>p {
     margin-bottom: 0.5rem;
 }
 
+.carousel.carousel-framed {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 .carousel-caption {
     right: 0;
     bottom: 20px;
@@ -532,7 +537,7 @@ li>p {
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 10%;
+    width: 8%;
 }
 
 /* TWU Branding - Mobile header */
