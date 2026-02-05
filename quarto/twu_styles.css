@@ -512,6 +512,10 @@ li>p {
     background-color: rgba(127, 127, 127, 0.05);
 }
 
+.callout.callout-tip.callout-style-simple {
+    padding: 0;
+}
+
 /* Bootstrap Carousel Styles */
 
 .carousel-indicators {
