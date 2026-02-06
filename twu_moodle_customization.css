@@ -3,10 +3,12 @@
 :root {
   --f-defaults: "Helvetica Neue", Arial, sans-serif;
   --f-base: "VerlagBook", "Public Sans", var(--f-defaults);
-  --f-serif: "EB Garamond", "JansonText55Roman", "Times New Roman", Times, serif;
-  --f-top-body: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  --f-serif:
+    "EB Garamond", "JansonText55Roman", "Times New Roman", Times, serif;
+  --f-top-body:
+    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   --c-social-grey: #efeeeb;
   --c-electric-blue: #428fec;
   --c-dark-blue: #002143;
@@ -1188,4 +1190,43 @@ div[role="main"] .tertiary-navigation {
 .webex-domain-table th {
   padding: 4px 6px !important;
   line-height: 1.1;
+}
+
+/* === Simple Webex carousel === */
+
+/* each question block */
+.webex-slide {
+  display: none;
+}
+
+.webex-slide.active {
+  display: block;
+}
+
+/* nav */
+.webex-carousel-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.webex-carousel-nav button {
+  height: 2em;
+  border-radius: 0.5em;
+  background-color: var(--highlight);
+  color: white;
+  padding: 0 0.75em;
+  border: none;
+  cursor: pointer;
+}
+
+.webex-carousel-progress {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.webex-check hr {
+  display: none;
 }
