@@ -1,21 +1,19 @@
-<script>
 (function () {
-  'use strict';
+  "use strict";
 
   function initSimpleCarousel(section) {
-
     // Each question = the block that contains a radiogroup
-    var groups = Array.from(section.querySelectorAll('.webex-radiogroup'));
+    var groups = Array.from(section.querySelectorAll(".webex-radiogroup"));
     if (groups.length <= 1) return;
 
     // Wrap each question block into a slide
     var slides = groups.map(function (grp, idx) {
-      var slide = document.createElement('div');
-      slide.className = 'webex-slide' + (idx === 0 ? ' active' : '');
+      var slide = document.createElement("div");
+      slide.className = "webex-slide" + (idx === 0 ? " active" : "");
 
       // Move the QUESTION TEXT + radiogroup into the slide
       var qText = grp.previousElementSibling;
-      if (qText && qText.tagName === 'P') {
+      if (qText && qText.tagName === "P") {
         slide.appendChild(qText);
       }
       slide.appendChild(grp);
@@ -27,40 +25,38 @@
     /* -----------------------------
        Progress text
     ------------------------------ */
-    var progress = document.createElement('div');
-    progress.className = 'webex-carousel-progress';
+    var progress = document.createElement("div");
+    progress.className = "webex-carousel-progress";
 
     /* -----------------------------
        Navigation buttons
     ------------------------------ */
-    var nav = document.createElement('div');
-    nav.className = 'webex-carousel-nav';
+    var nav = document.createElement("div");
+    nav.className = "webex-carousel-nav";
 
-    var prevBtn = document.createElement('button');
-    prevBtn.type = 'button';
-    prevBtn.textContent = 'Prev';
+    var prevBtn = document.createElement("button");
+    prevBtn.type = "button";
+    prevBtn.textContent = "Prev";
 
-    var nextBtn = document.createElement('button');
-    nextBtn.type = 'button';
-    nextBtn.textContent = 'Next';
+    var nextBtn = document.createElement("button");
+    nextBtn.type = "button";
+    nextBtn.textContent = "Next";
 
     nav.appendChild(prevBtn);
     nav.appendChild(nextBtn);
-    
-    
+
     section.insertBefore(progress, section.firstChild);
-    
+
     section.appendChild(nav);
 
-
-    var showBtn = section.querySelector('.webex-check-button');
+    var showBtn = section.querySelector(".webex-check-button");
     if (showBtn) {
-      nav.insertAdjacentElement('afterend', showBtn);
+      nav.insertAdjacentElement("afterend", showBtn);
     }
 
-    var score = section.querySelector('.webex-total_correct');
+    var score = section.querySelector(".webex-total_correct");
     if (score && showBtn) {
-      showBtn.insertAdjacentElement('afterend', score);
+      showBtn.insertAdjacentElement("afterend", score);
     }
 
     /* -----------------------------
@@ -70,11 +66,11 @@
 
     function update() {
       slides.forEach(function (s, idx) {
-        s.classList.toggle('active', idx === i);
+        s.classList.toggle("active", idx === i);
       });
-      progress.textContent = 'Question ' + (i + 1) + ' of ' + slides.length;
-      prevBtn.disabled = (i === 0);
-      nextBtn.disabled = (i === slides.length - 1);
+      progress.textContent = "Question " + (i + 1) + " of " + slides.length;
+      prevBtn.disabled = i === 0;
+      nextBtn.disabled = i === slides.length - 1;
     }
 
     prevBtn.onclick = function () {
@@ -94,9 +90,8 @@
     update();
   }
 
-  // Run AFTER everything is loaded 
-  window.addEventListener('load', function () {
-    document.querySelectorAll('.webex-check').forEach(initSimpleCarousel);
+  // Run AFTER everything is loaded
+  window.addEventListener("load", function () {
+    document.querySelectorAll(".webex-check").forEach(initSimpleCarousel);
   });
 })();
-</script>
