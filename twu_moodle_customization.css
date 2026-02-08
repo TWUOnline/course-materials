@@ -1220,17 +1220,22 @@ div[role="main"] .tertiary-navigation {
 }
 
 .carousel-caption p {
-    line-height: 1;
-    font-size: 14px;
-    margin-bottom: 0;
+    line-height: 1.2;
+    font-size: 15px;
+    margin-bottom: -8px;
+    color: #2d2a2b;
 }
 
-.carousel-control-prev {
+.carousel-control-prev,
+.carousel-control-prev:hover {
     left: 0;
+    color: #2d2a2b;
 }
 
-.carousel-control-next {
+.carousel-control-next,
+.carousel-control-next:hover {
     right: 0;
+    color: #2d2a2b;
 }
 
 /* Table CSS */
