@@ -1145,6 +1145,32 @@ div[role="main"] .tertiary-navigation {
   display: block;
 }
 
+/* Bootstrap Carousel Styles */
+
+.quarto-content-container .carousel-indicators {
+    margin-bottom: 0.5rem;
+}
+
+.quarto-content-container .carousel-caption {
+    right: 0;
+    bottom: 20px;
+    left: 0;
+}
+
+.quarto-content-container .carousel-caption p {
+    line-height: 1;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.quarto-content-container .carousel-control-prev {
+    left: 0;
+}
+
+.quarto-content-container .carousel-control-next {
+    right: 0;
+}
+
 /* Table CSS */
 
 /* Domain Score Table Style */
