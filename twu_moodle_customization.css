@@ -509,6 +509,17 @@ div[role="main"] .tertiary-navigation {
   margin-left: 34px;
 }
 
+span.screen-reader-only {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+
 .quarto-content-container {
   margin: 0 auto;
   max-width: 780px;
