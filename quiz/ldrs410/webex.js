@@ -1,6 +1,7 @@
 (function () {
   "use strict";
 
+  //
   const AVERAGE_DIVISOR = 5;
 
   function update_total_correct() {
