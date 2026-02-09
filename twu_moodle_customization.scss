@@ -605,6 +605,8 @@ span.screen-reader-only {
     width: 1px;
 }
 
+/* Bootstrap Iamge Carousel Styles */
+
 .visually-hidden, 
 .visually-hidden-focusable:not(:focus):not(:focus-within) {
     width: 1px !important;
@@ -633,6 +635,34 @@ span.screen-reader-only {
 .carousel-dark .carousel-control-prev-icon, 
 .carousel-dark .carousel-control-next-icon {
     filter: invert(1) grayscale(100);
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
 }
 
 .quarto-content-container {
