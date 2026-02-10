@@ -1,8 +1,6 @@
 (function () {
   "use strict";
 
-  const AVERAGE_DIVISOR = 5;
-
   function update_total_correct() {
     console.log("webex: update total_correct");
 
@@ -10,17 +8,16 @@
     for (var i = 0; i < t.length; i++) {
       var section = t[i].parentElement;
 
-      // all questions in this section
+      // question count for the existing "X of N correct"
       var units = section.querySelectorAll(
         ".webex-solveme, .webex-select, .webex-radiogroup",
       );
       var correctUnits = section.getElementsByClassName("webex-correct").length;
 
-      // points over all radio groups
+      // NEW: points – sum selected, and show max (max per question)
       var groups = section.querySelectorAll(".webex-radiogroup");
       var earned = 0,
         possible = 0;
-      var groupInfo = []; // store per-question scores for domain scoring
 
       for (var g = 0; g < groups.length; g++) {
         var grp = groups[g];
@@ -34,146 +31,32 @@
         possible += grpMax;
 
         var checked = grp.querySelector('input[type="radio"]:checked');
-        var got = checked ? Number(checked.dataset.points || 0) : 0;
-        earned += got;
-
-        groupInfo.push({ earned: got, possible: grpMax });
+        if (checked) earned += Number(checked.dataset.points || 0);
       }
 
-      // t[i].textContent =
-      //   correctUnits + ' of ' + units.length + ' answered' +
-      //   ' • ' + earned + ' of ' + possible + ' pts';
+      // interpretation
+      var level = "";
 
-      if (!section.classList.contains("no-points")) {
-        t[i].textContent =
-          correctUnits +
-          " of " +
-          units.length +
-          " answered" +
-          " • " +
-          earned +
-          " of " +
-          possible +
-          " pts";
+      if (earned <= 40) {
+        level = "Few impostor characteristics";
+      } else if (earned <= 60) {
+        level = "Moderate impostor experiences";
+      } else if (earned <= 80) {
+        level = "Frequent impostor feelings";
       } else {
-        t[i].textContent = correctUnits + " of " + units.length + " answered";
+        level = "Intense impostor experiences";
       }
 
-      // ---- Average Score (old behaviour, used when .average-enabled is present) ----
-      var avgEl = section.querySelector(".webex-average");
-      if (
-        section.classList.contains("average-enabled") &&
-        !section.classList.contains("unchecked")
-      ) {
-        var avg = (earned / AVERAGE_DIVISOR).toFixed(2);
-        if (!avgEl) {
-          avgEl = document.createElement("p");
-          avgEl.className = "webex-average";
-          avgEl.style.fontWeight = "700";
-          avgEl.style.marginTop = "1rem";
-          avgEl.style.marginBottom = "0.25rem";
-          t[i].parentNode.insertBefore(avgEl, t[i]);
-        }
-        avgEl.textContent = "Average Score: " + avg;
-      } else {
-        if (avgEl) avgEl.remove();
-      }
-
-      // ---- Domain scoring (Trust / Conflict / Commitment / Accountability / Results) ----
-      var domainBox = section.querySelector(".webex-domain-scores");
-
-      if (
-        !section.classList.contains("domain-scores") ||
-        section.classList.contains("unchecked")
-      ) {
-        // no special scoring OR cleared state → remove any existing table
-        if (domainBox) domainBox.remove();
-        continue;
-      }
-
-      // Helper: convert "1,6,10" → [0,5,9]
-      function parseList(str) {
-        if (!str) return [];
-        return str
-          .split(",")
-          .map(function (s) {
-            var n = parseInt(s.trim(), 10);
-            return isNaN(n) ? -1 : n - 1;
-          })
-          .filter(function (n) {
-            return n >= 0;
-          });
-      }
-
-      var domainDefs = [
-        { key: "trust", label: "Trust" },
-        { key: "conflict", label: "Conflict" },
-        { key: "commitment", label: "Commitment" },
-        { key: "accountability", label: "Accountability" },
-        { key: "results", label: "Results" },
-      ];
-
-      var rows = [];
-
-      domainDefs.forEach(function (d) {
-        var attr = section.dataset[d.key]; // e.g. data-trust
-        var idxs = parseList(attr);
-        if (!idxs.length) return;
-
-        var total = 0;
-        idxs.forEach(function (qIndex) {
-          var info = groupInfo[qIndex];
-          if (!info) return;
-          total += info.earned;
-        });
-
-        var count = idxs.length;
-        var avg = count ? (total / count).toFixed(2) : "0.00";
-
-        rows.push({
-          label: d.label,
-          total: total,
-          avg: avg,
-        });
-      });
-
-      if (!rows.length) {
-        if (domainBox) domainBox.remove();
-        continue;
-      }
-
-      if (!domainBox) {
-        domainBox = document.createElement("div");
-        domainBox.className = "webex-domain-scores";
-        domainBox.style.marginTop = "1rem";
-        domainBox.style.borderTop = "1px solid #ccc";
-        domainBox.style.paddingTop = "0.75rem";
-        t[i].parentNode.insertBefore(domainBox, t[i].nextSibling);
-      }
-
-      var html =
-        '<table class="webex-domain-table">' +
-        "<thead><tr>" +
-        "<th>Fundamental</th><th>Total</th><th>Average</th>" +
-        "</tr></thead><tbody>";
-
-      rows.forEach(function (r) {
-        html +=
-          "<tr>" +
-          "<td>" +
-          r.label +
-          "</td>" +
-          "<td>" +
-          r.total +
-          "</td>" +
-          "<td>" +
-          r.avg +
-          "</td>" +
-          "</tr>";
-      });
-
-      html += "</tbody></table>";
-      domainBox.innerHTML = html;
+      t[i].textContent =
+        correctUnits +
+        " of " +
+        units.length +
+        " answered • " +
+        earned +
+        " of " +
+        possible +
+        " pts — " +
+        level;
     }
   }
 
@@ -213,10 +96,6 @@
       }
     }
 
-    // also remove domain table if present
-    var domainBox = section.querySelector(".webex-domain-scores");
-    if (domainBox) domainBox.remove();
-
     update_total_correct();
   }
 
@@ -227,7 +106,6 @@
     if (cl.contains("unchecked")) {
       cl.remove("unchecked");
       this.textContent = "Clear Result";
-      update_total_correct(); // show average + domain table now
     } else {
       cl.add("unchecked");
       reset_section(section);
@@ -297,6 +175,10 @@
 
   function select_func() {
     console.log("webex: check select: modified");
+    var cl = this.classList;
+    // cl.remove('webex-incorrect'); cl.remove('webex-correct');
+    // if (this.value === 'answer') cl.add('webex-correct');
+    // else if (this.value !== 'blank') cl.add('webex-incorrect');
     update_total_correct();
   }
 
