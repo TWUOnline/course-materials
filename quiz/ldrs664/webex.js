@@ -1,4 +1,3 @@
-<script>
 (function () {
   "use strict";
 
@@ -288,5 +287,3 @@
     update_total_correct();
   };
 })();
-
-</script>
