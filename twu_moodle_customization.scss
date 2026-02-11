@@ -594,6 +594,14 @@ div[role="main"] .tertiary-navigation {
     }
 }
 
+.callout-box {
+    border: 2px solid #467aac;
+    padding: 0.5em 0.25em;
+    margin: 1em 0;
+    border-radius: .25em;
+    background-color: rgba(127, 127, 127, 0.05);
+}
+
 span.screen-reader-only {
     position: absolute;
     clip: rect(0 0 0 0);
