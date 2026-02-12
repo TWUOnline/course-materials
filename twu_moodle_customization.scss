@@ -125,7 +125,7 @@ ol>li>p {
     padding: 0 1rem 1rem;
 }
 
-.moremenu {
+.secondary-navigation .moremenu {
     opacity: 0;
     height: unset;
 
@@ -143,21 +143,21 @@ ol>li>p {
             background-color: #bd9b60;
             border-color: #dee2e6 #dee2e6 #f5f9fd;
         }
-
-        &:hover, 
-        &:focus {
-            isolation: isolate;
-            border-color: #8f959e #e9ecef #dee2e6;
-        }
-    }
-
-    .nav-item.show .nav-link {
-        color: #fff;
-        background-color: #bd9b60;
-        border-color: #dee2e6 #dee2e6 #f5f9fd;
     }
 }
 
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #bd9b60;
+    border-color: #bd9b60 #fff #f5f9fd;
+}
+
+.nav-tabs .nav-link:hover, 
+.nav-tabs .nav-link:focus {
+    isolation: isolate;
+    border-color: #bd9b60 #bd9b60 #dee2e6;
+}
 
 .p-left-30 {
     padding-left: 30px !important;

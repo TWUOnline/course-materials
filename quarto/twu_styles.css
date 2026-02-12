@@ -516,6 +516,10 @@ li>p {
     padding: 0;
 }
 
+.callout .webex-box {
+    margin-bottom: 1em !important;
+}
+
 /* Bootstrap Carousel Styles */
 
 .carousel-indicators {
