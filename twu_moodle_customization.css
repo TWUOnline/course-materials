@@ -367,6 +367,65 @@ ol > li > p {
   background-color: var(--accent-color);
 }
 
+.checklist_progress_outer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbb;
+    width: 300px;
+    background-color: #fff0;
+    height: 18px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    box-shadow: none;
+    border-radius: 0;
+}
+.checklist_progress_inner {
+    background-color: #50b125;
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: top;
+    z-index: 10;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.checklist_progress_anim {
+    background-color: #98c193;
+    background-image: none;
+    height: 15px;
+    width: 0;
+    background-repeat: repeat-x;
+    background-position: top;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    display: block;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+ol.checklist .itemblack {
+    color: #1d2125;
+    padding-left: 8px;
+}
+
 .activity-navigation #prev-activity-link,
 .activity-navigation #next-activity-link,
 .format-onetopic .section-navigation a {
