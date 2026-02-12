@@ -418,7 +418,8 @@ ol > li > p {
     position: relative;
 }
 
-input[type="radio"], input[type="checkbox"] {
+ol.checklist input[type="radio"], 
+ol.checklist input[type="checkbox"] {
     box-sizing: border-box;
     padding: 0px;
     width: 16px;
