@@ -149,15 +149,15 @@ ol>li>p {
     padding: 0 1rem 1rem;
 }
 
-.defaulttabs .nav-tabs .nav-link.active, 
-.defaulttabs .nav-tabs .nav-item.show .nav-link {
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
     color: #fff;
     background-color: #bd9b60;
     border-color: #bd9b60 #fff #f5f9fd;
 }
 
-.defaulttabs .nav-tabs .nav-link:hover, 
-.defaulttabs .nav-tabs .nav-link:focus {
+.nav-tabs .nav-link:hover, 
+.nav-tabs .nav-link:focus {
     isolation: isolate;
     border-color: #bd9b60 #bd9b60 #dee2e6;
 }
@@ -250,11 +250,15 @@ ol>li>p {
 }
 
 .activity-item {
-
+    
     .activity-actions {
         margin-bottom: 5px;
         margin-top: 5px;
     }
+}
+
+.section .activity.indented .activity-item {
+  border-bottom: 0;
 }
 
 .activity-item:not(.activityinline) {
