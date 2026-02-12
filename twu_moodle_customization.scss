@@ -472,6 +472,12 @@ ol>li>p {
     border-radius: 2px;
 }
 
+.checklist_progress_percent {
+    padding-left: .5em;
+    top: -5px;
+    position: relative;
+}
+
 // Moodle checklist
 
 input[type="radio"], input[type="checkbox"] {

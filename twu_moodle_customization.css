@@ -412,6 +412,12 @@ ol > li > p {
     border-radius: 2px;
 }
 
+.checklist_progress_percent {
+    padding-left: .5em;
+    top: -5px;
+    position: relative;
+}
+
 input[type="radio"], input[type="checkbox"] {
     box-sizing: border-box;
     padding: 0px;
