@@ -101,6 +101,10 @@ ol > li > p {
     background-color: #dee2e6;
 }
 
+.tabs-wrapper {
+    padding: 0 1rem 1rem;
+}
+
 .defaulttabs .nav-tabs .nav-link.active, 
 .defaulttabs .nav-tabs .nav-item.show .nav-link {
     color: #fff;
