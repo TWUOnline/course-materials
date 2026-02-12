@@ -87,6 +87,34 @@ ol > li > p {
   padding: 0 1rem 1rem;
 }
 
+.moremenu {
+    opacity: 0;
+    height: unset;
+}
+
+.moremenu .nav-link {
+  height: unset;
+}
+
+.moremenu .nav-link:hover, 
+.moremenu .nav-link:focus{
+    border-color: #002856;
+    background-color: #dee2e6;
+}
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #bd9b60;
+    border-color: #dee2e6 #dee2e6 #f5f9fd;
+}
+
+.nav-tabs .nav-link:hover, 
+.nav-tabs .nav-link:focus {
+    isolation: isolate;
+    border-color: #8f959e #e9ecef #dee2e6;
+}
+
 .p-left-30 {
   padding-left: 30px !important;
 }

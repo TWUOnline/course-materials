@@ -125,6 +125,40 @@ ol>li>p {
     padding: 0 1rem 1rem;
 }
 
+.moremenu {
+    opacity: 0;
+    height: unset;
+
+    .nav-link {
+        height: unset;
+
+        &:focus,
+        &:hover {
+            border-color: #002856;
+            background-color: #dee2e6;
+        }
+
+        &.active {
+            color: #fff;
+            background-color: #bd9b60;
+            border-color: #dee2e6 #dee2e6 #f5f9fd;
+        }
+
+        &:hover, 
+        &:focus {
+            isolation: isolate;
+            border-color: #8f959e #e9ecef #dee2e6;
+        }
+    }
+
+    .nav-item.show .nav-link {
+        color: #fff;
+        background-color: #bd9b60;
+        border-color: #dee2e6 #dee2e6 #f5f9fd;
+    }
+}
+
+
 .p-left-30 {
     padding-left: 30px !important;
 }
