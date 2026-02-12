@@ -403,6 +403,22 @@ ol>li>p {
             font-size: 13px;
             font-weight: normal;
         }
+
+        a.action-button-light {
+        color: var(--accent-color);
+        background-color:white;
+        border-radius: 30px;
+        padding: 7px 15px;
+        text-transform: initial;
+        font-size: 13px;
+        font-weight: normal;
+        border: 1px solid var(--accent-color);
+        }
+
+        a.action-button-light:hover {
+        color: #fff;
+        background-color: var(--accent-color);
+        }
     }
 }
 

@@ -348,6 +348,22 @@ ol > li > p {
   font-weight: normal;
 }
 
+.course-content .label.modtype_label a.action-button-light {
+  color: var(--accent-color);
+  background-color:white;
+  border-radius: 30px;
+  padding: 7px 15px;
+  text-transform: initial;
+  font-size: 13px;
+  font-weight: normal;
+  border: 1px solid var(--accent-color);
+}
+
+.course-content .label.modtype_label a.action-button-light:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
 .activity-navigation #prev-activity-link,
 .activity-navigation #next-activity-link,
 .format-onetopic .section-navigation a {
