@@ -60,13 +60,15 @@ $(document).ready(function () {
   })();
 });
 
+
 $(document).ready(function () {
   "use strict";
   document.querySelectorAll(".quarto-content-container a").forEach(link => {
     link.target = "_blank";
     link.rel = "noopener";
   });
-})();
+});
+
 
 $(document).ready(function () {
   "use strict";
