@@ -432,7 +432,7 @@ ol > li > p {
 }
 
 .checklist_progress_anim {
-    background-color: #98c193;
+    background-color: #fff;
     background-image: none;
     height: 15px;
     width: 0;
