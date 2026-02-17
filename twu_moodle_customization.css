@@ -189,9 +189,9 @@ ol > li > p {
   font-size: 1rem;
 }
 
-.activitytitle .badge {
+/* .activitytitle .badge {
   padding: 0;
-}
+} */
 
 .section .activity.indented .activity-item {
   border-bottom: 0;
