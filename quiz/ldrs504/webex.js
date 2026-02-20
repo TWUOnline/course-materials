@@ -341,7 +341,7 @@
       check_sections[j].classList.add("unchecked");
 
       var btn = document.createElement("button");
-      btn.textContent = "Show Answers";
+      btn.textContent = "Show Result";
       btn.classList.add("webex-check-button");
       btn.onclick = check_func;
       check_sections[j].appendChild(btn);
