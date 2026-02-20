@@ -1101,6 +1101,12 @@ span.screen-reader-only {
   line-height: 1.3;
 }
 
+.quarto-content-container table .caption {
+  font-size: 0.975rem;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 @media (max-width: 799px) {
   .quarto-content-container .twu-global-header .nav {
     display: none !important;

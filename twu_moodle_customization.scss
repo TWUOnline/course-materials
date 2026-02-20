@@ -1137,6 +1137,12 @@ span.screen-reader-only {
         line-height: 1.3;
     }
 
+    table .caption {
+        font-size: 0.975rem;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
     /* Media Query */
 
     @media (max-width: 799px) {
