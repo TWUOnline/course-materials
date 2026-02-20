@@ -733,6 +733,14 @@ div[role="main"] .tertiary-navigation {
     background-color: rgba(127, 127, 127, 0.05);
 }
 
+.column-margin.column-container>div {
+    border: 1px solid #ddd;
+    padding: 10px 10px 0;
+    margin-bottom: 20px;
+    color: #454f59;
+    font-size: .925rem;
+}
+
 span.screen-reader-only {
     position: absolute;
     clip: rect(0 0 0 0);
