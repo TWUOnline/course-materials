@@ -1,0 +1,465 @@
+/* =========================
+   Base container
+========================= */
+.fibq {
+  max-width: 920px;
+  padding: 12px;
+}
+
+/* =========================
+   Sentence list layout
+========================= */
+.fibq-sentences {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+
+.fibq-sentences li {
+  margin: 10px 0;
+}
+
+/* =========================
+  Blanks (drop zones)
+
+========================= */
+.fibq-blank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  min-width: 90px;
+  width: auto;
+
+  height: 28px;
+  padding: 0 8px;
+  margin: 0 4px;
+
+  background: #dbe8fb;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  vertical-align: middle;
+}
+
+/* =========================
+   Word bank 
+========================= */
+.fibq-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fibq-right {
+  width: 100%;
+}
+
+.fibq-bank-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Bank container */
+.fibq-bank {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* =========================
+   Draggable word 
+========================= */
+.fibq-word {
+  display: inline-flex;
+  align-items: center;
+
+  height: 26px;
+  padding: 0 10px;
+
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #e8f0ff;
+
+  cursor: grab;
+  user-select: none;
+  font-size: 0.85rem;
+
+  margin: 0;
+}
+.fibq-blank .fibq-word {
+  margin: 0;
+}
+
+/* =========================
+   Buttons
+========================= */
+.fibq-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fibq-actions button {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  cursor: pointer;
+}
+
+.fibq-output {
+  font-weight: 700;
+}
+
+/* =========================
+   Feedback styles
+========================= */
+.fibq-correct {
+  outline: 3px solid #2e7d32;
+}
+
+.fibq-wrong {
+  outline: 3px solid #c62828;
+}
+
+/* Optional */
+.fibq-blank:hover {
+  filter: brightness(0.98);
+}
+
+/* === Simple Webex carousel === */
+
+/* each question block */
+.webex-slide {
+  display: none;
+}
+
+.webex-slide.active {
+  display: block;
+}
+
+/* nav */
+.webex-carousel-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.webex-carousel-nav button {
+  height: 2em;
+  border-radius: 0.5em;
+  background-color: var(--highlight);
+  color: white;
+  padding: 0 0.75em;
+  border: none;
+  cursor: pointer;
+}
+
+.webex-carousel-progress {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.webex-check hr {
+  display: none;
+}
+
+.quiz-slide {
+  display: none;
+}
+
+.quiz-slide.active {
+  display: block;
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.quiz-progress {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.quiz-slide {
+  display: none;
+}
+.quiz-slide.active {
+  display: block;
+}
+
+/* --- Carousel Prev/Next buttons --- */
+.quiz-nav button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  color: #111;
+  cursor: pointer;
+}
+
+.quiz-nav button:hover {
+  background: #eaecef;
+}
+
+/* nav button disabled */
+.quiz-nav button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.quiz-nav button:last-child {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.quiz-nav button:last-child:hover {
+  filter: brightness(0.95);
+}
+
+/* ===== True/False Quiz ===== */
+
+.tfq {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: #fff;
+  max-width: 100%;
+}
+
+.tfq h3 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* Question */
+.tfq p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Option */
+.tfq-options {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+/* buttons */
+.tfq-option {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  min-width: 80px;
+}
+
+.tfq-option:hover {
+  background: #f3f4f6;
+}
+
+/* Selected */
+.tfq-option.is-selected {
+  border-color: #2563eb;
+  background: #e0edff;
+}
+
+/* Check + Retry  */
+.tfq-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.tfq-check,
+.tfq-retry {
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  border-radius: 999px;
+}
+
+/* Check button */
+.tfq-check {
+  background: #2563eb;
+  color: white;
+}
+
+/* Retry button */
+.tfq-retry {
+  background: #f3f4f6;
+}
+
+/* Feedback small */
+.tfq-output {
+  font-size: 0.8rem;
+  margin-left: 6px;
+}
+
+/* Correct / Incorrect */
+.tfq-option.is-correct {
+  background: #e6f4ea;
+  border-color: #1a7f37;
+}
+
+.tfq-option.is-wrong {
+  background: #fdecea;
+  border-color: #cf222e;
+}
+
+.tfq-check,
+.tfq-retry {
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.tfq-retry {
+  border-color: #d1d5db;
+  background: #f3f4f6;
+  color: #111;
+}
+
+.tfq-check {
+  border-color: #2563eb;
+}
+.tfq-check:focus-visible,
+.tfq-retry:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 2px;
+}
+
+/* ===== MCQ ===== */
+
+.mcq {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #fff;
+}
+
+.mcq h3 {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.mcq-sub {
+  font-weight: 600;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.mcq-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+/* option bar */
+.mcq-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 12px;
+  border-radius: 6px;
+
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.mcq-option input {
+  transform: scale(1.05);
+}
+
+.mcq-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* after checking */
+.mcq.is-checked .mcq-option {
+  cursor: default;
+}
+
+/* Correct selected  */
+.mcq-option.is-correct {
+  background: #bfe8d5;
+  border-color: #77c8a7;
+}
+
+/* Wrong selected  */
+.mcq-option.is-wrong {
+  background: #fdecea;
+  border-color: #cf222e;
+}
+
+/* Missed correct  */
+.mcq-option.is-missed {
+  background: #fff7d6;
+  border-color: #e6c200;
+}
+
+/* actions */
+.mcq-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.mcq-check,
+.mcq-retry {
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.mcq-check {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.mcq-check:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mcq-output {
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-left: 6px;
+}
