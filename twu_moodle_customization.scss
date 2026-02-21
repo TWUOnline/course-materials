@@ -1358,6 +1358,11 @@ span.screen-reader-only {
         padding: 0 0.5em;
     }
 
+    .webex-box button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
     .webex-solution pre.sourceCode {
         border-color: var(--correct);
     }

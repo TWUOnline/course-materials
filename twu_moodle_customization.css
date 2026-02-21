@@ -1315,6 +1315,11 @@ span.screen-reader-only {
   padding: 0 0.5em;
 }
 
+.quarto-content-container .webex-box button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .quarto-content-container .webex-solution pre.sourceCode {
   border-color: var(--correct);
 }
