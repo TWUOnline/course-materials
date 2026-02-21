@@ -520,6 +520,11 @@ li>p {
     margin-bottom: 1em !important;
 }
 
+.webex-box button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 /* Bootstrap Carousel Styles */
 
 .carousel-indicators {
