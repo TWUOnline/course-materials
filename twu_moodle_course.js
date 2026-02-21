@@ -60,15 +60,13 @@ $(document).ready(function () {
   })();
 });
 
-
 $(document).ready(function () {
   "use strict";
-  document.querySelectorAll(".quarto-content-container a").forEach(link => {
+  document.querySelectorAll(".quarto-content-container a").forEach((link) => {
     link.target = "_blank";
     link.rel = "noopener";
   });
 });
-
 
 $(document).ready(function () {
   "use strict";
@@ -84,7 +82,7 @@ $(document).ready(function () {
 
       // all questions in this section
       var units = section.querySelectorAll(
-        ".webex-solveme, .webex-select, .webex-radiogroup"
+        ".webex-solveme, .webex-select, .webex-radiogroup",
       );
       var correctUnits = section.getElementsByClassName("webex-correct").length;
 
@@ -375,7 +373,7 @@ $(document).ready(function () {
   function radiogroups_func() {
     console.log("webex: check radiogroups");
     var checked_button = document.querySelector(
-      'input[name="' + this.id + '"]:checked'
+      'input[name="' + this.id + '"]:checked',
     );
     if (!checked_button) return;
 
@@ -413,7 +411,7 @@ $(document).ready(function () {
       check_sections[j].classList.add("unchecked");
 
       var btn = document.createElement("button");
-      btn.textContent = "Show Answers";
+      btn.textContent = "Show Results";
       btn.classList.add("webex-check-button");
       btn.onclick = check_func;
       check_sections[j].appendChild(btn);
@@ -454,7 +452,7 @@ $(document).ready(function () {
 
       solveme[k].insertAdjacentHTML(
         "afterend",
-        " <span class='webex-icon'></span>"
+        " <span class='webex-icon'></span>",
       );
     }
 
@@ -470,7 +468,7 @@ $(document).ready(function () {
       selects[s].onchange = select_func;
       selects[s].insertAdjacentHTML(
         "afterend",
-        " <span class='webex-icon'></span>"
+        " <span class='webex-icon'></span>",
       );
     }
 
