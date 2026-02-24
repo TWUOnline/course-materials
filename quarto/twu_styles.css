@@ -593,3 +593,7 @@ li>p {
         display: none;
     }
 }
+
+div.csl-entry {
+    margin-bottom: 10px;
+}
