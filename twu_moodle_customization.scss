@@ -213,6 +213,8 @@ ol>li>p {
     .activity-information .completion-info {
         padding-top: 0;
         padding-bottom: 0;
+        text-align: right;
+        border-bottom: 0;
 
         button.btn {
             float: right;
@@ -233,7 +235,6 @@ ol>li>p {
 
     .automatic-completion-conditions .badge {
         background-color: var(--accent-color-dark);
-        float: right;
         color: white;
         font-size: 100%;
 

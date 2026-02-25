@@ -158,6 +158,8 @@ ol > li > p {
 .path-mod .activity-information .completion-info {
   padding-top: 0;
   padding-bottom: 0;
+  text-align: right;
+  border-bottom: 0;
 }
 
 .path-mod .activity-information .completion-info button.btn {
@@ -178,7 +180,6 @@ ol > li > p {
 
 .path-mod .automatic-completion-conditions .badge {
   background-color: var(--accent-color-dark);
-  float: right;
   color: white;
   font-size: 100%;
 }
