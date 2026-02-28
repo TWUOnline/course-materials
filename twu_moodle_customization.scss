@@ -727,11 +727,11 @@ div[role="main"] .tertiary-navigation {
 }
 
 .callout-box {
-    border: 2px solid #467aac;
-    padding: 0.5em 0.25em;
+    border: 1px solid rgba(27,127,204,.8);
+    padding: 0.75em 1em 0 !important;
     margin: 1em 0;
     border-radius: .25em;
-    background-color: rgba(127, 127, 127, 0.05);
+    background-color: #80898fcc;
 }
 
 .column-margin.column-container>div {
