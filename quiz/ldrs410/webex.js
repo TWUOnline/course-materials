@@ -44,19 +44,49 @@
       //   correctUnits + ' of ' + units.length + ' answered' +
       //   ' • ' + earned + ' of ' + possible + ' pts';
 
-      if (!section.classList.contains("no-points")) {
-        t[i].textContent =
-          correctUnits +
-          " of " +
-          units.length +
-          " answered" +
-          " • " +
-          earned +
-          " of " +
-          possible +
-          " pts";
+      // Ofen/Almost always problem items
+
+      var problemItems = [];
+
+      groups.forEach(function (grp, idx) {
+        var checked = grp.querySelector('input[type="radio"]:checked');
+        if (!checked) return;
+
+        var pts = Number(checked.dataset.points || 0);
+
+        // 4 = often, 5 = almost always
+        if (pts >= 4) {
+          var slide = grp.closest(".webex-slide");
+          var qTextEl = slide
+            ? slide.querySelector("p")
+            : grp.previousElementSibling;
+
+          if (qTextEl) {
+            var text = qTextEl.textContent.trim();
+            problemItems.push(text);
+          }
+        }
+      });
+
+      if (problemItems.length === 0) {
+        t[i].innerHTML =
+          "<strong>Great!</strong> You did not select 'often' or 'almost always' for any items.";
       } else {
-        t[i].textContent = correctUnits + " of " + units.length + " answered";
+        var html =
+          "<strong>You gave yourself 'often' or 'almost always' to the following items:</strong><br><br>";
+
+        html += "<ul>";
+
+        problemItems.forEach(function (q) {
+          html += "<li>" + q + "</li>";
+        });
+
+        html += "</ul>";
+
+        html +=
+          "<p><strong>Those areas represent where your active listening skills may be lacking.</strong></p>";
+
+        t[i].innerHTML = html;
       }
 
       // ---- Average Score (old behaviour, used when .average-enabled is present) ----
