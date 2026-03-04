@@ -1,7 +1,6 @@
 (function () {
   "use strict";
 
-  //
   const AVERAGE_DIVISOR = 5;
 
   function update_total_correct() {
@@ -233,6 +232,10 @@
       cl.add("unchecked");
       reset_section(section);
       this.textContent = "Show Result";
+
+      section.dispatchEvent(
+        new CustomEvent("webex:cleared", { bubbles: true }),
+      );
     }
   }
 

@@ -73,6 +73,14 @@
       nextBtn.disabled = i === slides.length - 1;
     }
 
+    // When quiz is cleared, jump back to Question 1
+    section.addEventListener("webex:cleared", function () {
+      i = 0;
+      update();
+
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
     prevBtn.onclick = function () {
       if (i > 0) {
         i--;
