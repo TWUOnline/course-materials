@@ -1,0 +1,216 @@
+:root {
+  --incorrect: #e74c3c;
+  --incorrect_alpha: #fdecea;
+  --correct: #59935b;
+  --correct_alpha: #c0edc2;
+  --highlight: #467aac;
+  --highlight_alpha: #cce0ed;
+  --border_soft: #d7dbe2;
+  --text_soft: #4b5563;
+  --bg_soft: #f8fafc;
+}
+
+/* Shared styles */
+
+.webex-box,
+.webex-yn {
+  border: 2px solid var(--highlight);
+  background-color: #fff;
+}
+
+.webex-box {
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  border-radius: 0.4em;
+}
+
+.webex-yn {
+  padding: 1rem 1.1rem;
+  margin: 1em 0;
+  border-radius: 0.6em;
+}
+
+.webex-total_correct {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.unchecked .webex-total_correct {
+  display: none;
+}
+
+.webex-check-button {
+  height: 2em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.75rem;
+  border: none;
+  border-radius: 0.5em;
+  background-color: var(--highlight);
+  color: white;
+  padding: 0 0.75em;
+  cursor: pointer;
+}
+
+.webex-question-block {
+  margin-bottom: 1.35rem;
+}
+
+.webex-question-block p {
+  margin: 0 0 0.55rem 0;
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+
+.webex-radiogroup {
+  margin-top: 0.2rem;
+}
+
+.webex-icon {
+  margin-left: 0.35rem;
+}
+
+/* T/F  */
+
+.webex-box.unchecked .webex-incorrect,
+.webex-box.unchecked .webex-correct {
+  border: 2px dotted #999 !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.webex-box .webex-radiogroup label {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 220px;
+  padding: 0.45rem 0.75rem;
+  margin: 0 0 0.45rem 0;
+  font-size: 0.9rem;
+  border: 1.5px dotted #999;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.webex-box .webex-radiogroup label input {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.webex-box .webex-radiogroup label.webex-correct {
+  border: 2px solid var(--highlight) !important;
+  background-color: var(--highlight_alpha) !important;
+  color: black;
+}
+
+.webex-box .webex-radiogroup label.webex-incorrect {
+  border: 1.5px solid var(--incorrect) !important;
+  background-color: var(--incorrect_alpha) !important;
+  color: black;
+}
+
+/* Yes/No */
+
+.webex-yn.unchecked .webex-incorrect,
+.webex-yn.unchecked .webex-correct {
+  border: 1.5px solid var(--border_soft) !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.webex-yn .webex-question-block {
+  margin-bottom: 1.75rem;
+}
+
+.webex-yn .webex-question-block p {
+  margin: 0 0 0.8rem 0;
+  line-height: 1.45;
+  font-size: 0.98rem;
+}
+
+.webex-yn .webex-radiogroup {
+  margin: 0 0 0.8rem 0;
+}
+
+.webex-yn .webex-radiogroup label {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 150px;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0 0.45rem 0;
+  font-size: 0.92rem;
+  border: 1.5px solid var(--border_soft);
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.webex-yn .webex-radiogroup label:hover {
+  background-color: var(--bg_soft);
+}
+
+.webex-yn .webex-radiogroup label input {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.webex-yn .webex-radiogroup label.webex-correct {
+  border: 1.5px solid var(--highlight) !important;
+  background-color: var(--highlight_alpha) !important;
+  color: black;
+}
+
+.webex-yn .webex-radiogroup label.webex-incorrect {
+  border: 1.5px solid var(--incorrect) !important;
+  background-color: var(--incorrect_alpha) !important;
+  color: black;
+}
+
+.webex-yn .webex-explain {
+  margin-top: 0.2rem;
+  max-width: 560px;
+}
+
+.webex-yn .webex-explain label {
+  display: block;
+  margin: 0 0 0.4rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text_soft);
+}
+
+.webex-yn .webex-explain-box {
+  display: block;
+  width: 100%;
+  min-height: 84px;
+  padding: 0.7rem 0.8rem;
+  border: 1.5px solid var(--border_soft);
+  border-radius: 0.55rem;
+  background: #fff;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.webex-yn .webex-explain-box::placeholder {
+  color: #9aa3af;
+}
+
+.webex-yn .webex-explain-box:focus {
+  outline: none;
+  border-color: var(--highlight);
+  box-shadow: 0 0 0 3px rgba(70, 122, 172, 0.12);
+}
