@@ -34,16 +34,46 @@
         if (checked) earned += Number(checked.dataset.points || 0);
       }
 
-      t[i].textContent =
-        correctUnits +
-        " of " +
-        units.length +
-        " answered" +
-        " • " +
-        earned +
-        " of " +
-        possible +
-        " pts";
+      // t[i].textContent =
+      //   correctUnits +
+      //   " of " +
+      //   units.length +
+      //   " answered" +
+      //   " • " +
+      //   earned +
+      //   " of " +
+      //   possible +
+      //   " pts";
+
+      if (section.classList.contains("culture-competence-quiz")) {
+        var level = "";
+
+        if (earned >= 65 && earned <= 80) {
+          level = "Competent";
+        } else if (earned >= 40 && earned <= 64) {
+          level = "Near Competent";
+        } else {
+          level = "Incompetent";
+        }
+
+        t[i].innerHTML =
+          "<strong>TOTAL SCORE:</strong> " +
+          earned +
+          " &nbsp;&nbsp; 80-65 = Competent; 65-40 = Near Competent; 40 Below = Incompetent" +
+          "<br><strong>Your Result:</strong> " +
+          level;
+      } else {
+        t[i].textContent =
+          correctUnits +
+          " of " +
+          units.length +
+          " answered" +
+          " • " +
+          earned +
+          " of " +
+          possible +
+          " pts";
+      }
     }
   }
 
